@@ -59,8 +59,8 @@ params:
         subtitle: For in much wisdom is much vexation, and he who increases knowledge increases sorrow.
         avatar:
             enabled: true
-            local: false
-            src: https://avatars.githubusercontent.com/u/8384277?v=4
+            local: true
+            src: img/avatar.png
 
     article:
         math: false
