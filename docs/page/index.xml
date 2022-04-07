@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Pages on Example Site</title>
-        <link>https://ayoonesi.github.io/page/</link>
-        <description>Recent content in Pages on Example Site</description>
+        <title>Pages on Alireza Yoonesi</title>
+        <link>https://yoonesi.com/page/</link>
+        <description>Recent content in Pages on Alireza Yoonesi</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ayoonesi.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://yoonesi.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Archives</title>
-        <link>https://ayoonesi.github.io/archives/</link>
+        <link>https://yoonesi.com/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://ayoonesi.github.io/archives/</guid>
+        <guid>https://yoonesi.com/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>About</title>
-        <link>https://ayoonesi.github.io/about/</link>
+        <link>https://yoonesi.com/about/</link>
         <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://ayoonesi.github.io/about/</guid>
+        <guid>https://yoonesi.com/about/</guid>
         <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
 &lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
@@ -44,10 +44,10 @@
         </item>
         <item>
         <title>Links</title>
-        <link>https://ayoonesi.github.io/links/</link>
+        <link>https://yoonesi.com/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://ayoonesi.github.io/links/</guid>
+        <guid>https://yoonesi.com/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -79,10 +79,10 @@
         </item>
         <item>
         <title>Search</title>
-        <link>https://ayoonesi.github.io/search/</link>
+        <link>https://yoonesi.com/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://ayoonesi.github.io/search/</guid>
+        <guid>https://yoonesi.com/search/</guid>
         <description></description>
         </item>
         

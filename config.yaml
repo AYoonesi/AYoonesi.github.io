@@ -1,25 +1,25 @@
 publishDir: "docs"
 
-baseurl: https://ayoonesi.github.io
+baseurl: https://yoonesi.com
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: Alireza Yoonesi
 
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: Alireza Yoonesi
         weight: 1
-    zh-cn:
-        languageName: 中文
-        title: 演示站点
-        weight: 2
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
+    # zh-cn:
+    #     languageName: 中文
+    #     title: 演示站点
+    #     weight: 2
+    # ar:
+    #     languageName: عربي
+    #     languagedirection: rtl
+    #     title: موقع تجريبي
+    #     weight: 3
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
