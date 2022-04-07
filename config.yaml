@@ -1,6 +1,6 @@
 publishDir: "docs"
 
-baseurl: https://ayoonesi.github.io
+baseurl: https://yoonesi.com
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
