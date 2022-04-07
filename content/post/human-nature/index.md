@@ -40,22 +40,7 @@ image = "a.jpg"
 ژنو ۳۰ اکتبر ۱۷۵۵
 </div>
 
-
-
-## Code block indented with four spaces
-
-    <!doctype html>
-    <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test:</p>
-      <iframe src="word.htm"></iframe>
-    </body>
-    </html>
-
+[![لینک دانلود مقاله ۱](لینک دانلودسس مقاله ۱)](article.pdf)
 
 {{< css.inline >}}
 <style>
