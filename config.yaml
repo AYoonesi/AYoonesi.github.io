@@ -55,8 +55,8 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 👨🏼‍💻
+        subtitle: For in much wisdom is much vexation, and he who increases knowledge increases sorrow.
         avatar:
             enabled: true
             local: true
