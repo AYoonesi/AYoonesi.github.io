@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yoonesi.com/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -19,6 +19,78 @@
                 hreflang="en"
                 href="https://yoonesi.com/"
                 />
+  </url><url>
+    <loc>https://yoonesi.com/categories/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://yoonesi.com/zh-cn/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://yoonesi.com/ar/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yoonesi.com/categories/"
+                />
+  </url><url>
+    <loc>https://yoonesi.com/tags/markdown/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yoonesi.com/post/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://yoonesi.com/zh-cn/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://yoonesi.com/ar/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yoonesi.com/post/"
+                />
+  </url><url>
+    <loc>https://yoonesi.com/tags/tag-with-whitespaces/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yoonesi.com/tags/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://yoonesi.com/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://yoonesi.com/ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yoonesi.com/tags/"
+                />
+  </url><url>
+    <loc>https://yoonesi.com/categories/test-with-whitespaces/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yoonesi.com/tags/text/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yoonesi.com/categories/%D8%B4%D9%87%D8%B1%DB%8C%D8%A7%D8%B1/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yoonesi.com/p/%DA%86%DB%8C%D8%B3%D8%AA%DB%8C-%D8%B3%D8%B1%D8%B4%D8%AA-%D8%A7%D9%86%D8%B3%D8%A7%D9%86-%D8%A7%D8%B2-%D8%B1%D8%A4%DB%8C%D8%A7-%D8%AA%D8%A7-%D9%88%D8%A7%D9%82%D8%B9%DB%8C%D8%AA/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yoonesi.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
@@ -36,74 +108,17 @@
                 href="https://yoonesi.com/page/"
                 />
   </url><url>
-    <loc>https://yoonesi.com/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://yoonesi.com/zh-cn/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://yoonesi.com/ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yoonesi.com/categories/"
-                />
-  </url><url>
     <loc>https://yoonesi.com/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yoonesi.com/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yoonesi.com/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://yoonesi.com/p/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yoonesi.com/post/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://yoonesi.com/zh-cn/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://yoonesi.com/ar/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yoonesi.com/post/"
-                />
-  </url><url>
     <loc>https://yoonesi.com/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yoonesi.com/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://yoonesi.com/zh-cn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://yoonesi.com/ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yoonesi.com/tags/"
-                />
   </url><url>
     <loc>https://yoonesi.com/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
@@ -133,9 +148,6 @@
                 href="https://yoonesi.com/p/placeholder-text/"
                 />
   </url><url>
-    <loc>https://yoonesi.com/tags/tag-with-whitespaces/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://yoonesi.com/categories/test/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -148,12 +160,6 @@
                 hreflang="en"
                 href="https://yoonesi.com/categories/test/"
                 />
-  </url><url>
-    <loc>https://yoonesi.com/categories/test-with-whitespaces/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yoonesi.com/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yoonesi.com/p/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
