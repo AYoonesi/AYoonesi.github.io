@@ -16,6 +16,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fa"
+                href="https://yoonesi.com/fa/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh-cn"
                 href="https://yoonesi.com/zh-cn/"
                 />
@@ -31,6 +36,11 @@
                 rel="alternate"
                 hreflang="ar"
                 href="https://yoonesi.com/ar/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://yoonesi.com/fa/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -52,6 +62,11 @@
                 rel="alternate"
                 hreflang="ar"
                 href="https://yoonesi.com/ar/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://yoonesi.com/fa/post/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -97,6 +112,11 @@
                 rel="alternate"
                 hreflang="ar"
                 href="https://yoonesi.com/ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://yoonesi.com/fa/tags/"
                 />
     <xhtml:link
                 rel="alternate"
