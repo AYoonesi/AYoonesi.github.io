@@ -1,3 +1,5 @@
+publishDir: "docs"
+
 baseurl: https://ayoonesi.github.io
 languageCode: en-us
 theme: hugo-theme-stack
