@@ -68,7 +68,7 @@ n-th root $$ \sqrt[n]{1+x+x^2+x^3+\ldots} $$
 Matrices $$ \begin{pmatrix} a_{11} &amp; a_{12} &amp; a_{13}\ a_{21} &amp; a_{22} &amp; a_{23}\ a_{31} &amp; a_{32} &amp; a_{33} \end{pmatrix} \begin{bmatrix} 0 &amp; \cdots &amp; 0 \ \vdots &amp; \ddots &amp; \vdots \ 0 &amp; \cdots &amp; 0 \end{bmatrix} $$
 Punctuation $$ f(x) = \sqrt{1+x} \quad (x \ge -1) f(x) \sim x^2 \quad (x\to\infty) $$
 Now with punctuation:
-$$ f(x) = \sqrt{1+x}, \quad x \ge -1 f(x) \sim x^2, \quad x\to\infty $$</content></entry><entry><title>Emoji Support</title><url>http://yoonesi.com/post/emoji-support/</url><categories/><tags><tag>emoji</tag></tags><content type="html"> Emoji can be enabled in a Hugo project in a number of ways.
+$$ f(x) = \sqrt{1+x}, \quad x \ge -1 f(x) \sim x^2, \quad x\to\infty $$</content></entry><entry><title>Emoji Support</title><url>http://yoonesi.com/post/emoji-support/</url><categories><category>sample</category></categories><tags><tag>emoji</tag></tags><content type="html"> Emoji can be enabled in a Hugo project in a number of ways.
 The emojify function can be called directly in templates or Inline Shortcodes.
 To enable emoji globally, set enableEmoji to true in your site&rsquo;s configuration and then you can type emoji shorthand codes directly in content files; e.g.
 🙈 🙈 🙉 🙉 🙊 🙊
