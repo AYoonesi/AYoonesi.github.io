@@ -62,3 +62,8 @@ body, span, time, li {
 .category-all {
     direction: rtl;
 }
+
+.site-description {
+    direction: ltr;
+    font-size: 14px;
+}
