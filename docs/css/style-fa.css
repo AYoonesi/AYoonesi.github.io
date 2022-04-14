@@ -1,11 +1,11 @@
 @font-face {
     font-family: iransans;
-    src: url('../fonts/iransansweb.ttf');
+    src: url('../fonts/iransansweb.ttf') format('truetype');
 }
 
 @font-face {
     font-family: iransans-bold;
-    src: url('../fonts/iransansweb_bold.ttf');
+    src: url('../fonts/iransansweb_bold.ttf') format('truetype');
 }
 
 html, body, a {
