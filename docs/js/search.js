@@ -3,7 +3,7 @@ $(document).ready(function () {
     var isfetched = false;
     // Search DB path;
     // TO-DO Seems not found best way 
-    var pre_sch_path = window.location.href.indexOf('/en/') > -1 ? '/en/' : "/"
+    var pre_sch_path = window.location.href.indexOf('/fa/') > -1 ? '/fa/' : "/"
     var search_path = "searchindex.xml";
     var path = pre_sch_path + search_path;
     // monitor main search box;
@@ -100,11 +100,13 @@ $(document).ready(function () {
                     })};
                     str += "</ul>";
 
-                    var rs_cnt = "<div class='search-stats'><b>"+matchcounts
+                    var rs_cnt;
                     if (pre_sch_path == '/') {
-                        rs_cnt += " </b>个结果被找到！"
-                    } else {
-                        rs_cnt += " </b>results found!"
+                        rs_cnt = `<div style="direction: ltr;" class='search-stats'><b>` + matchcounts
+                        rs_cnt += " </b>results found! "
+                    } else if (pre_sch_path == '/fa/') {
+                        rs_cnt = `<div style="direction: rtl;" class='search-stats'><b>` + matchcounts
+                        rs_cnt += " </b>نتیجه پیدا شد!"
 
                     }
                     rs_cnt += "</div><hr/>"

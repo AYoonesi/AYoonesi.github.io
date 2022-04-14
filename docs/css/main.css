@@ -1,3 +1,32 @@
+/* Shit I added */
+.news-lead {
+  background: #f1f1f1;
+  border-radius: 8px 0 8px 0 !important;
+  overflow: hidden;
+  text-align: justify !important;
+  padding: 0.5rem !important;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.pic-desc {
+  border: black;
+  margin-top: -20px;
+  color: #242424a6 !important;
+  border: 1px solid #e9e9e9;
+  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+
+
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif; /* 1 */
