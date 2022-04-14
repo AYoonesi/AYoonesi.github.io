@@ -1,0 +1,17 @@
+@font-face {
+    font-family: iransans;
+    src: url(../fonts/iransansweb.ttf);
+}
+
+@font-face {
+    font-family: iransans-bold;
+    src: url(../fonts/iransansweb_bold.ttf);
+}
+
+html {
+    font-family: iransans;
+}
+
+a .post-title-link {
+    font-family: iransans-bold;
+}
