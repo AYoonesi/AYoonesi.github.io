@@ -1,4 +1,12 @@
 /* Shit I added */
+
+@font-face{font-family:'irsans';
+  src:url(../fonts/iransansweb.eot?) format("embedded-opentype"),url(../fonts/iransansweb.ttf) format("truetype"),url(../fonts/iransansweb.woff) format("woff"),url(../fonts/iransansweb.woff2) format("woff2")}
+#fa {
+  font-family: irsans;
+  font-size: 15px;
+}
+
 .news-lead {
   background: #f1f1f1;
   border-radius: 8px 0 8px 0 !important;
@@ -25,13 +33,6 @@
 }
 .site-author-image {
   border-radius: 100px;
-}
-
-@font-face{font-family:'irsans';
-  src:url(../fonts/iransansweb.eot?) format("embedded-opentype"),url(../fonts/iransansweb.ttf) format("truetype"),url(../fonts/iransansweb.woff) format("woff"),url(../fonts/iransansweb.woff2) format("woff2")}
-#fa {
-  font-family: irsans;
-  font-size: 15px;
 }
 
  /* My Shit Ended */
