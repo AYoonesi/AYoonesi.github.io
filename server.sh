@@ -1,1 +1,0 @@
-hugo server -D -p 3000
