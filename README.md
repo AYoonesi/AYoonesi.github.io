@@ -15,5 +15,7 @@ L' instit (The School Teacher) portrayed by Gerard Klein (Victor Novak) is a cha
 ## To-Do:
 + [X] Static Pages of About, Contact, 404
 + [X] Links of Github, ZhiHu, Nutz, JFinal, Wendal, LiaoXueFeng
-+ [ ] Democracy in Switzerland + H. Bashirie on voting and sword and stuff
 + [X] Commenting System
++ [ ] Post I: Democracy in Switzerland + H. Bashirie on voting and sword and stuff
++ [ ] Post II
++ [ ] Post III
