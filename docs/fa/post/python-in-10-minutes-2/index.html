@@ -1,39 +1,202 @@
-<!doctype html><html lang=fa dir=content/fa><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge,chrome=1"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta http-equiv=content-security-policy content="upgrade-insecure-requests"><title>همه پایتون توی ۱۰ دقیقه - قسمت دوم (لیست و دیکشنری) - علیرضا یونسی - L'instit</title><meta name=keywords content="Blog,Software,Big Data,Product,Architecture,Java,Kylin"><meta name=author content="علی‌رضا یونسی"><meta property="og:title" content="همه پایتون توی ۱۰ دقیقه - قسمت دوم (لیست و دیکشنری)"><meta property="og:site_name" content="علیرضا یونسی - L'instit"><meta property="og:image" content="/img/author.jpg"><meta name=title content="همه پایتون توی ۱۰ دقیقه - قسمت دوم (لیست و دیکشنری) - علیرضا یونسی - L'instit"><meta name=description content="توی این مجموعه پست قراره پایتون رو توی ۱۰ دقیقه یاد بگیریم؛ منطقا نه تا حد زیادی اما بعد از مطالعه این پست‌ها یه حد خوبی از پایتون رو بلدین که می‌تونین ازش بعنوان یه نقطه شروع محکم استفاده کنین! - قسمت دوم "><link rel="shortcut icon" href=/img/favicon.ico><link rel=apple-touch-icon href=/img/apple-touch-icon.png><link rel=apple-touch-icon-precomposed href=/img/apple-touch-icon.png><link href=//cdn.bootcdn.net/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css rel=stylesheet type=text/css><link href=//cdn.bootcdn.net/ajax/libs/imageviewer/0.1.0/viewer.min.css rel=stylesheet><link href=/css/main.css rel=stylesheet type=text/css><link href=/css/syntax.css rel=stylesheet type=text/css><link href=/css/style-fa.css rel=stylesheet type=text/css></head><body itemscope itemtype=http://schema.org/WebPage lang=en-us><div class="container one-collumn sidebar-position-left page-home"><div class=headband></div><header id=header class=header itemscope itemtype=http://schema.org/WPHeader><div class=header-inner><div class=site-brand-container><div class=site-nav-toggle><div class=toggle role=button style=opacity:1;top:0><span class=toggle-line></span>
+<!doctype html><html lang=fa dir=content/fa>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta http-equiv=content-security-policy content="upgrade-insecure-requests">
+<title> همه پایتون توی ۱۰ دقیقه - قسمت دوم (لیست و دیکشنری) - علیرضا یونسی - L'instit </title>
+<meta name=keywords content="Blog,Software,Big Data,Product,Architecture,Java,Kylin">
+<meta name=author content="علی‌رضا یونسی">
+<meta property="og:title" content="همه پایتون توی ۱۰ دقیقه - قسمت دوم (لیست و دیکشنری)">
+<meta property="og:site_name" content="علیرضا یونسی - L'instit">
+<meta property="og:image" content="/img/author.jpg">
+<meta name=title content="همه پایتون توی ۱۰ دقیقه - قسمت دوم (لیست و دیکشنری) - علیرضا یونسی - L'instit">
+<meta name=description content="توی این مجموعه پست قراره پایتون رو توی ۱۰ دقیقه یاد بگیریم؛ منطقا نه تا حد زیادی اما بعد از مطالعه این پست‌ها یه حد خوبی از پایتون رو بلدین که می‌تونین ازش بعنوان یه نقطه شروع محکم استفاده کنین! - قسمت دوم ">
+<link rel="shortcut icon" href=/img/favicon.ico>
+<link rel=apple-touch-icon href=/img/apple-touch-icon.png>
+<link rel=apple-touch-icon-precomposed href=/img/apple-touch-icon.png>
+<link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css rel=stylesheet type=text/css>
+<link href=https://cdnjs.cloudflare.com/ajax/libs/imageviewer/0.1.0/viewer.min.css rel=stylesheet>
+<link href=/css/main.css rel=stylesheet type=text/css>
+<link href=/css/syntax.css rel=stylesheet type=text/css>
+<link href=/css/style-fa.css rel=stylesheet type=text/css>
+</head>
+<body itemscope itemtype=http://schema.org/WebPage lang=en-us>
+<div class="container one-collumn sidebar-position-left page-home">
+<div class=headband></div>
+<header id=header class=header itemscope itemtype=http://schema.org/WPHeader>
+<div class=header-inner>
+<script defer type=module>
+  
+  import flamethrower from 'flamethrower-router'
+  const router = flamethrower({ log: true });
+</script>
+<div class=site-brand-container>
+<div class=site-nav-toggle>
+<div class=toggle role=button style=opacity:1;top:0>
 <span class=toggle-line></span>
-<span class=toggle-line></span></div></div><div class=site-meta><div class=multi-lang-switch><i class="fa fa-fw fa-language" style=margin-right:5px></i>
-<a class=lang-link id=fa href=#>فارسی</a></div><div class=custom-logo-site-title><a href=/fa/ class=brand rel=start><span class=logo-line-before><i></i></span>
+<span class=toggle-line></span>
+<span class=toggle-line></span>
+</div>
+</div>
+<div class=site-meta>
+<div class=multi-lang-switch>
+<i class="fa fa-fw fa-language" style=margin-right:5px></i>
+<a class=lang-link id=fa href=#>فارسی</a>
+</div>
+<div class=custom-logo-site-title>
+<a href=/fa/ class=brand rel=start>
+<span class=logo-line-before><i></i></span>
 <span class=site-title>علیرضا یونسی - L'instit</span>
-<span class=logo-line-after><i></i></span></a></div><p class=site-subtitle>وبلاگ علی‌رضا/علی/اروین</p></div><div class=site-nav-right><div class="toggle popup-trigger" style=opacity:1;top:0><i class="fa fa-search fa-fw fa-lg"></i></div></div></div><nav class=site-nav><ul id=menu class=menu><li class=menu-item><a href=/fa rel=section><i class="menu-item-icon fa fa-fw fa-home"></i><br>خانه</a></li><li class=menu-item><a href=/fa/post rel=section><i class="menu-item-icon fa fa-fw fa-archive"></i><br>آرشیو</a></li><li class=menu-item><a href=/fa/about.html rel=section><i class="menu-item-icon fa fa-fw fa-user"></i><br>درباره</a></li><li class=menu-item><a href=/fa/contact.html rel=section><i class="menu-item-icon fa fa-fw fa-heartbeat"></i><br>تماس</a></li><li class="menu-item menu-item-search"><a href=javascript:; class=popup-trigger><i class="menu-item-icon fa fa-search fa-fw"></i><br>جستجو</a></li></ul><div class=site-search><div class="popup search-popup local-search-popup"><div class="local-search-header clearfix"><span class=search-icon><i class="fa fa-search"></i></span>
-<span class=popup-btn-close><i class="fa fa-times-circle"></i></span><div class=local-search-input-wrapper><input autocomplete=off placeholder="تایپ کنید" spellcheck=false type=text id=local-search-input autocapitalize=none autocorrect=off></div></div><div id=local-search-result></div></div></div></nav></div></header><main id=main class=main><div class=main-inner><div class=content-wrap><div id=content class=content><section id=posts class=posts-expand><article class="post post-type-normal" itemscope itemtype=http://schema.org/Article><header class=post-header><h1 class=post-title itemprop="name headline"><a class=post-title-link href=https://linstit.pw/fa/post/python-in-10-minutes-2/ itemprop=url>همه پایتون توی ۱۰ دقیقه - قسمت دوم (لیست و دیکشنری)</a></h1><div class=post-meta><span class=post-time><i class="fa fa-calendar-o fa-fw"></i>
+<span class=logo-line-after><i></i></span>
+</a>
+</div>
+<p class=site-subtitle>وبلاگ علی‌رضا/علی/اروین</p>
+</div>
+<div class=site-nav-right>
+<div class="toggle popup-trigger" style=opacity:1;top:0>
+<i class="fa fa-search fa-fw fa-lg"></i>
+</div>
+</div>
+</div>
+<nav class=site-nav>
+<ul id=menu class=menu>
+<li class=menu-item>
+<a href=/fa rel=section>
+<i class="menu-item-icon fa fa-fw fa-home"></i> <br>خانه
+</a>
+</li>
+<li class=menu-item>
+<a href=/fa/post rel=section>
+<i class="menu-item-icon fa fa-fw fa-archive"></i> <br>آرشیو
+</a>
+</li>
+<li class=menu-item>
+<a href=/fa/about.html rel=section>
+<i class="menu-item-icon fa fa-fw fa-user"></i> <br>درباره
+</a>
+</li>
+<li class=menu-item>
+<a href=/fa/contact.html rel=section>
+<i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>تماس
+</a>
+</li>
+<li class="menu-item menu-item-search">
+<a href=javascript:; class=popup-trigger> <i class="menu-item-icon fa fa-search fa-fw"></i> <br> جستجو</a>
+</li>
+</ul>
+<div class=site-search>
+<div class="popup search-popup local-search-popup">
+<div class="local-search-header clearfix">
+<span class=search-icon><i class="fa fa-search"></i> </span>
+<span class=popup-btn-close><i class="fa fa-times-circle"></i></span>
+<div class=local-search-input-wrapper>
+<input autocomplete=off placeholder="تایپ کنید" spellcheck=false type=text id=local-search-input autocapitalize=none autocorrect=off>
+</div>
+</div>
+<div id=local-search-result></div>
+</div>
+</div>
+</nav>
+</div>
+</header>
+<main id=main class=main>
+<div class=main-inner>
+<div class=content-wrap>
+<div id=content class=content>
+<section id=posts class=posts-expand>
+<article class="post post-type-normal" itemscope itemtype=http://schema.org/Article>
+<header class=post-header>
+<h1 class=post-title itemprop="name headline">
+<a class=post-title-link href=https://linstit.pw/fa/post/python-in-10-minutes-2/ itemprop=url>
+همه پایتون توی ۱۰ دقیقه - قسمت دوم (لیست و دیکشنری)
+</a>
+</h1>
+<div class=post-meta>
+<span class=post-time>
+<i class="fa fa-calendar-o fa-fw"></i>
 <span class=post-meta-item-text>تاریخ:</span>
-<time itemprop=dateCreated datetime=2016-03-22T13:04:35+08:00 content="2022/08/08">2022/08/08</time></span>
-<span class=post-category>&nbsp; | &nbsp;
+<time itemprop=dateCreated datetime=2016-03-22T13:04:35+08:00 content="2022/08/08">
+2022/08/08
+</time>
+</span>
+<span class=post-category>
+&nbsp; | &nbsp;
 <i class="fa fa-folder-o fa-fw"></i>
 <span class=post-meta-item-text>دسته‌بندی:</span>
-<span itemprop=about itemscope itemtype=https://schema.org/Thing><a href=/fa/categories/%D8%A2%D9%85%D9%88%D8%B2%D8%B4 itemprop=url rel=index style=text-decoration:underline><span itemprop=name>آموزش</span></a>
-&nbsp;</span>
-<span itemprop=about itemscope itemtype=https://schema.org/Thing><a href=/fa/categories/%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86 itemprop=url rel=index style=text-decoration:underline><span itemprop=name>پایتون</span></a>
-&nbsp;</span></span>
-<span><i class="fa fa-file-word-o fa-fw"></i>
+<span itemprop=about itemscope itemtype=https://schema.org/Thing>
+<a href=/fa/categories/%D8%A2%D9%85%D9%88%D8%B2%D8%B4 itemprop=url rel=index style=text-decoration:underline>
+<span itemprop=name>آموزش</span>
+</a>
+&nbsp;
+</span>
+<span itemprop=about itemscope itemtype=https://schema.org/Thing>
+<a href=/fa/categories/%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86 itemprop=url rel=index style=text-decoration:underline>
+<span itemprop=name>پایتون</span>
+</a>
+&nbsp;
+</span>
+</span>
+<span>
+<i class="fa fa-file-word-o fa-fw"></i>
 <span class=post-meta-item-text>تعداد کلمات:</span>
-<span class=leancloud-world-count>630</span></span>
-<span>|
+<span class=leancloud-world-count>630</span>
+</span>
+<span>
+|
 <i class="fa fa-eye fa-fw"></i>
 <span class=post-meta-item-text>خواندن در:</span>
-<span class=leancloud-view-count>3 دقیقه</span></span>
-<span id=/fa/post/python-in-10-minutes-2/ class=leancloud_visitors data-flag-title="همه پایتون توی ۱۰ دقیقه - قسمت دوم (لیست و دیکشنری)">|
+<span class=leancloud-view-count>3 دقیقه</span>
+</span>
+<span id=/fa/post/python-in-10-minutes-2/ class=leancloud_visitors data-flag-title="همه پایتون توی ۱۰ دقیقه - قسمت دوم (لیست و دیکشنری)">
+|
 <i class="fa fa-binoculars fa-fw"></i>
 <span class=post-meta-item-text>دیده شده:</span>
-<span class=leancloud-visitors-count></span></span></div></header><div class=post-body itemprop=articleBody><p><img src=/fa/post/python-in-10-minutes-2/splash.jpg alt="Increasingly used for various projects, Python is a programming language that allows you to work quickly and integrate systems more efficiently. " title=Python></p><div class=news-lead>در ادامه جلسه قبل که یه سری مقدمه تلاوت کردیم، امروز قراره دیتا استراکچرهای لیست و دیکشنری رو با هم کار کنیم.</div><h2 id=مرور-جلسه-قبل>مرور جلسه قبل</h2><p>خب، جلسه قبل یکمی پایتون رو معرفی کردیم و گفتیم جذابیتا و پتانسیلای پایتون چیا می‌تونن باشن؛ یکم از سینتکس ساده‌اش گفتیم و نشون دادیم از خیلی زبونا خیلی راحت‌تره و به این دلیل انتخاب خیلی متخصصای غیرکامپیوتریه. پیشنهاد می‌کنم پایتون و بطورکلی مفهوم ماشین‌لرنینگ رو جدی بگیرین چون بخش زیادی زندگی آینده‌مون با ماشین‌لرنینگ قراره رقم بخوره.</p><h2 id=دیتاتایپها---data-types>دیتاتایپ‌ها - Data Types</h2><p>از ساختار داده‌های موجود توی پایتون می‌شه به لیست‌ها (lists)، دیشکنری‌ها (disctionaries) و توپل‌ها (tuples) اشاره کرد.
-واسه الان و ابتدای مسیر دوتای اولی (ینی لیست و دیکشنری) به کار ما میان و بهشون اشاره می‌کنیم چون از توپل‌ها و باقی دیتا استراکچرهایی که می‌تونیم با کلک رشتی (مثل ست‌ها - sets) و بدون کلک رشتی تعریف کنیم کاربرد بیشتری دارن.<br></p><ol><li><strong>لیست‌ها:</strong> لیست‌ها درواقع آرایه‌های یه بعدی هستن (اونایی که سابقه کار با زبونای برنامه‌نویسی دیگه رو دارن می‌دونن آرایه یه بعدی چیه ولی در کل یه مجموعه داده هست که می‌تونین پشت هم تعریف کنین توی یه قسمت از حافظه؛ یه جور مجموعه). واسه تعریف لیست از براکت (علامت‌های [ و ]) استفاده می‌کنیم.<br>شما توی لیست‌ها محدودیت تایپ ندارین؛ این ینی خلاف یچیزی مثلا سی، وقتی یه لیست تعریف می‌کنین مجبور نیستین همه اعضا رو از یه جنس داخلش بریزین. ینی هر عضو از لیست ما می‌تونه عدد صحیح، رشته یا حتا یه لیست دیگه (یا حتا یه دیتااستراکچر دیگه 😏) باشه! توضیحات دیگه بسه، مثالای زیر رو ببینین:
+<span class=leancloud-visitors-count></span>
+</span>
+</div>
+</header>
+<div class=post-body itemprop=articleBody>
+<p><img src=/fa/post/python-in-10-minutes-2/splash.jpg alt="Increasingly used for various projects, Python is a programming language that allows you to work quickly and integrate systems more efficiently. " title=Python></p>
+<div class=news-lead>
+در ادامه جلسه قبل که یه سری مقدمه تلاوت کردیم، امروز قراره دیتا استراکچرهای لیست و دیکشنری رو با هم کار کنیم.
+</div>
+<h2 id=مرور-جلسه-قبل>مرور جلسه قبل</h2>
+<p>خب، جلسه قبل یکمی پایتون رو معرفی کردیم و گفتیم جذابیتا و پتانسیلای پایتون چیا می‌تونن باشن؛ یکم از سینتکس ساده‌اش گفتیم و نشون دادیم از خیلی زبونا خیلی راحت‌تره و به این دلیل انتخاب خیلی متخصصای غیرکامپیوتریه. پیشنهاد می‌کنم پایتون و بطورکلی مفهوم ماشین‌لرنینگ رو جدی بگیرین چون بخش زیادی زندگی آینده‌مون با ماشین‌لرنینگ قراره رقم بخوره.</p>
+<h2 id=دیتاتایپها---data-types>دیتاتایپ‌ها - Data Types</h2>
+<p>از ساختار داده‌های موجود توی پایتون می‌شه به لیست‌ها (lists)، دیشکنری‌ها (disctionaries) و توپل‌ها (tuples) اشاره کرد.
+واسه الان و ابتدای مسیر دوتای اولی (ینی لیست و دیکشنری) به کار ما میان و بهشون اشاره می‌کنیم چون از توپل‌ها و باقی دیتا استراکچرهایی که می‌تونیم با کلک رشتی (مثل ست‌ها - sets) و بدون کلک رشتی تعریف کنیم کاربرد بیشتری دارن.
+<br></p>
+<ol>
+<li><strong>لیست‌ها:</strong> لیست‌ها درواقع آرایه‌های یه بعدی هستن (اونایی که سابقه کار با زبونای برنامه‌نویسی دیگه رو دارن می‌دونن آرایه یه بعدی چیه ولی در کل یه مجموعه داده هست که می‌تونین پشت هم تعریف کنین توی یه قسمت از حافظه؛ یه جور مجموعه). واسه تعریف لیست از براکت (علامت‌های [ و ]) استفاده می‌کنیم. <br> شما توی لیست‌ها محدودیت تایپ ندارین؛ این ینی خلاف یچیزی مثلا سی، وقتی یه لیست تعریف می‌کنین مجبور نیستین همه اعضا رو از یه جنس داخلش بریزین. ینی هر عضو از لیست ما می‌تونه عدد صحیح، رشته یا حتا یه لیست دیگه (یا حتا یه دیتااستراکچر دیگه 😏) باشه! توضیحات دیگه بسه، مثالای زیر رو ببینین:
 <img src=list.png alt="Lists In Python">
 نکته‌ای که نباید فراموش کنین اینه که لیست‌ها این مزیت رو به می‌دن که با ایندکس هرکدوم از اعضای لیستمون رو فراخونی کنیم؛ ینی هر عضو لیست ما یه ایندکس داره که به کارمون میاد؛ حواستون باشه که ایندکس‌ها از صفر شروع می‌شن و می‌رن همینطوری جلو:
-<img src=list2.png alt="Lists In Python"></li><li><strong>دیکشنری‌ها:</strong> همونطور که دیدیم لیست‌ها ایندکس‌های عددی داشتن، حالا چی می‌شد اگر بجای ایندکس‌های عددی، بهشون یه عبارت یا یه متن یا حالا هرچیزی نسبت بدیم؟
+<img src=list2.png alt="Lists In Python"></li>
+<li><strong>دیکشنری‌ها:</strong> همونطور که دیدیم لیست‌ها ایندکس‌های عددی داشتن، حالا چی می‌شد اگر بجای ایندکس‌های عددی، بهشون یه عبارت یا یه متن یا حالا هرچیزی نسبت بدیم؟
 سناریویی رو تصور کنید که می‌خواید یه سیستم امتیازدهی درست کنین با همین دیتا استراکچرهای موجود، ینی ۱۰ تا فیلم داریم و می‌خوایم اسم هرکدوم رو با امتیازش سیو کنیم توی مموری.
 حالا یه راه اینه که دوتا لیست داشته باشیم، یکی اسمای فیلما و دیگری امتیازاشون و بعد با ایندکس‌های برابر امتیازا و اسما رو فراخونی کنیم؛ خب این یه کار خیلی سختی می‌تونه باشه و وقت‌گیر، بخاطر همین دیکشنری‌ها تعریف شدن (مراقب باشین که دیکشنری رو مثل لیست با براکت تعریف نکنین، دیکشنری‌ها با کرلی‌براکت تعریف می‌شن که این دوتا هستن { }):
-<img src=dict.png alt="Dicts in Python"><br><em>یه نکته گیج‌کننده که نباید فراموش کنین اینه که دیشکنری‌ها با کرلی‌براکت (ینی { و }) تعریف می‌شن ولی با براکت ساده (ینی [ و ] که واسه تعریف لیست استفاده می‌شدن) فراخوانی می‌شه مقدارشون. اولش ممکنه یکم گیج‌کننده باشه براتون ولی به‌مرور منطق پشتش رو متوجه می‌شین.</em></li></ol><h3 id=تمرین>تمرین!</h3><p>سعی کنین این دوتا دیتا استراکچر رو خوب یاد بگیرین و گیج نشین چون خیلی قراره به کارتون بیان. پیشنهاد می‌کنم چندبار اینا رو با مثالای مختلفی که میان به ذهنتون تمرین کنین. مثلا همون سیستم امتیازدهی بسیار ساده رو با لیست پیاده کنین و ببینین چقد جواب می‌ده بعد لذت می‌برین از برنامه‌نویسی.<br>مثال‌های این جلسه رو من با ipython براتون نوشتم که بهتون توی مسیر یادگیری خیلی کمک می‌کنه و خیلی بهتر از پایتون خالی توی ترمینال سیستم‌عامل هست. از سایت <a href=https://ipython.org/>ipython.prg</a> واسه لینوکس و مک دانلود کنین. واسه ویندوز من جایی ندیدم همچین چیزی ولی نگران نباشین، مرحله بعد می‌ریم توی جوپیتر نوت‌بوک که خیلی واسه آموزش و مدل‌سازی مالی (و هر مدلسازی دیگه‌ای و حالا کارای علمی و خیلی کارای علمی) مناسبه.<br>محیط جوپیتر نوتبوک:
+<img src=dict.png alt="Dicts in Python"><br>
+<em>یه نکته گیج‌کننده که نباید فراموش کنین اینه که دیشکنری‌ها با کرلی‌براکت (ینی { و }) تعریف می‌شن ولی با براکت ساده (ینی [ و ] که واسه تعریف لیست استفاده می‌شدن) فراخوانی می‌شه مقدارشون. اولش ممکنه یکم گیج‌کننده باشه براتون ولی به‌مرور منطق پشتش رو متوجه می‌شین.</em></li>
+</ol>
+<h3 id=تمرین>تمرین!</h3>
+<p>سعی کنین این دوتا دیتا استراکچر رو خوب یاد بگیرین و گیج نشین چون خیلی قراره به کارتون بیان. پیشنهاد می‌کنم چندبار اینا رو با مثالای مختلفی که میان به ذهنتون تمرین کنین. مثلا همون سیستم امتیازدهی بسیار ساده رو با لیست پیاده کنین و ببینین چقد جواب می‌ده بعد لذت می‌برین از برنامه‌نویسی.
+<br>
+مثال‌های این جلسه رو من با ipython براتون نوشتم که بهتون توی مسیر یادگیری خیلی کمک می‌کنه و خیلی بهتر از پایتون خالی توی ترمینال سیستم‌عامل هست. از سایت <a href=https://ipython.org/>ipython.prg</a> واسه لینوکس و مک دانلود کنین. واسه ویندوز من جایی ندیدم همچین چیزی ولی نگران نباشین، مرحله بعد می‌ریم توی جوپیتر نوت‌بوک که خیلی واسه آموزش و مدل‌سازی مالی (و هر مدلسازی دیگه‌ای و حالا کارای علمی و خیلی کارای علمی) مناسبه.
+<br>
+محیط جوپیتر نوتبوک:
 <img src=ipy_0.13.png alt="Jupyter Notebook">
-<img src=A2iPE.png alt="Jupyter Notebook"></p><center><br><p><strong>تمرین کنین و دستکم نگیرین؛ چون همین مفهومای کوچولو رو اگر بنیادی یاد نگیرین اذیت می‌شین در آینده. براتون آرزوی بهترینا رو دارم.</strong></p><h2 id=منطقا-ادامه-داره>منطقا ادامه داره!</h2><center><p><img src=/fa/post/python-in-10-minutes/tbc.png alt=To-Be-Continued></p><html prefix="og: http://ogp.me/ns#"></div><footer class=post-footer><div class=post-tags><a href=/fa/tags/%d9%be%d8%a7%db%8c%d8%aa%d9%88%d9%86 rel=tag title=پایتون>#پایتون#</a>
+<img src=A2iPE.png alt="Jupyter Notebook"></p>
+<center>
+<br>
+<p><strong>تمرین کنین و دستکم نگیرین؛ چون همین مفهومای کوچولو رو اگر بنیادی یاد نگیرین اذیت می‌شین در آینده. براتون آرزوی بهترینا رو دارم.</strong></p>
+<h2 id=منطقا-ادامه-داره>منطقا ادامه داره!</h2>
+<center>
+<p><img src=/fa/post/python-in-10-minutes/tbc.png alt=To-Be-Continued></p>
+<html prefix="og: http://ogp.me/ns#">
+</div>
+<footer class=post-footer>
+<div class=post-tags>
+<a href=/fa/tags/%d9%be%d8%a7%db%8c%d8%aa%d9%88%d9%86 rel=tag title=پایتون>#پایتون#</a>
 <a href=/fa/tags/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87%d9%86%d9%88%db%8c%d8%b3%db%8c rel=tag title=برنامه‌نویسی>#برنامه‌نویسی#</a>
 <a href=/fa/tags/%d8%a2%d9%85%d9%88%d8%b2%d8%b4 rel=tag title=آموزش>#آموزش#</a>
 <a href=/fa/tags/python rel=tag title=Python>#Python#</a>
@@ -45,35 +208,236 @@
 <a href=/fa/tags/%d8%a7%d9%84%da%af%d9%88%d8%b1%db%8c%d8%aa%d9%85 rel=tag title=الگوریتم>#الگوریتم#</a>
 <a href=/fa/tags/education rel=tag title=Education>#Education#</a>
 <a href=/fa/tags/%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af rel=tag title=اقتصاد>#اقتصاد#</a>
-<a href=/fa/tags/economics rel=tag title=Economics>#Economics#</a></div><div class=addthis_inline_share_toolbox></div><div class=post-nav><div class=article-copyright><div class=article-copyright-img><img src="https://api.qrserver.com/v1/create-qr-code/?size=129x129&data=https%3a%2f%2flinstit.pw%2ffa%2fpost%2fpython-in-10-minutes-2%2f" width=129px height=129px><div style=text-align:center>!اسکن کنید</div></div><div class=article-copyright-info><p><span>عنوان：</span>همه پایتون توی ۱۰ دقیقه - قسمت دوم (لیست و دیکشنری)</p><p><span>آدرس：</span>https://linstit.pw/fa/post/python-in-10-minutes-2/</p><p><span>نویسنده：</span>علی‌رضا یونسی</p><p><span>عنوان：</span> این مطلب تحت لیسانس <a href=https://creativecommons.org/licenses/by-nc-sa/3.0/ target=_blank style=text-decoration:underline>CC BY-NC-SA 3.0</a> منتشر شده، لطفا منبع رو ذکر کنید.</p></div></div><div class=clear></div></div><div hidden class=reward-qr-info><div>If it can help you, you can give tips for blogger that how much you want. ^_^</div><button id=rewardButton disable=enable onclick='var qr=document.getElementById("QR");qr.style.display==="none"?qr.style.display="block":qr.style.display="none"'>
-<span>Reward</span></button><div id=QR style=display:none><div id=wechat style=display:inline-block><img id=wechat_qr src=/img/wechat-pay.png alt="WeChat Pay"><p>Wechat Pay</p></div><div id=alipay style=display:inline-block><img id=alipay_qr src=/img/ali-pay.png alt=Alipay><p>Ali Pay</p></div></div></div><div class=post-nav><div class="post-nav-next post-nav-item"><a href=https://linstit.pw/fa/post/how-we-create-stupidity/ rel=next title="چطوری حماقت رو خلق می‌کنیم؟"><i class="fa fa-chevron-left"></i> چطوری حماقت رو خلق می‌کنیم؟</a></div><div class="post-nav-prev post-nav-item"><a href=https://linstit.pw/fa/post/python-in-10-minutes/ rel=prev title="همه پایتون توی ۱۰ دقیقه - قسمت اول (مقدمه)">همه پایتون توی ۱۰ دقیقه - قسمت اول (مقدمه)
-<i class="fa fa-chevron-right"></i></a></div></div></footer></article></section></div></div><div class=sidebar-toggle><div class=sidebar-toggle-line-wrap><span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+<a href=/fa/tags/economics rel=tag title=Economics>#Economics#</a>
+</div>
+<div class=addthis_inline_share_toolbox></div>
+<div class=post-nav>
+<div class=article-copyright>
+<div class=article-copyright-img>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=129x129&data=https%3a%2f%2flinstit.pw%2ffa%2fpost%2fpython-in-10-minutes-2%2f" width=129px height=129px>
+<div style=text-align:center>!اسکن کنید</div>
+</div>
+<div class=article-copyright-info>
+<p>
+<span>عنوان：</span>همه پایتون توی ۱۰ دقیقه - قسمت دوم (لیست و دیکشنری)
+</p>
+<p>
+<span>آدرس：</span>https://linstit.pw/fa/post/python-in-10-minutes-2/
+</p>
+<p>
+<span>نویسنده：</span>علی‌رضا یونسی
+</p>
+<p>
+<span>عنوان： </span> این مطلب تحت لیسانس <a href=https://creativecommons.org/licenses/by-nc-sa/3.0/ target=_blank style=text-decoration:underline>CC BY-NC-SA 3.0</a> منتشر شده، لطفا منبع رو ذکر کنید.
+</p>
+</div>
+</div>
+<div class=clear></div>
+</div>
+<div hidden class=reward-qr-info>
+<div>If it can help you, you can give tips for blogger that how much you want. ^_^</div>
+<button id=rewardButton disable=enable onclick="var qr=document.getElementById('QR');qr.style.display==='none'?qr.style.display='block':qr.style.display='none'">
+<span>Reward</span>
+</button>
+<div id=QR style=display:none>
+<div id=wechat style=display:inline-block>
+<img id=wechat_qr src=/img/wechat-pay.png alt="WeChat Pay">
+<p>Wechat Pay</p>
+</div>
+<div id=alipay style=display:inline-block>
+<img id=alipay_qr src=/img/ali-pay.png alt=Alipay>
+<p>Ali Pay</p>
+</div>
+</div>
+</div>
+<div class=post-nav>
+<div class="post-nav-next post-nav-item">
+<a href=https://linstit.pw/fa/post/how-we-create-stupidity/ rel=next title="چطوری حماقت رو خلق می‌کنیم؟">
+<i class="fa fa-chevron-left"></i> چطوری حماقت رو خلق می‌کنیم؟
+</a>
+</div>
+<div class="post-nav-prev post-nav-item">
+<a href=https://linstit.pw/fa/post/python-in-10-minutes/ rel=prev title="همه پایتون توی ۱۰ دقیقه - قسمت اول (مقدمه)">
+همه پایتون توی ۱۰ دقیقه - قسمت اول (مقدمه)
+<i class="fa fa-chevron-right"></i>
+</a>
+</div>
+</div>
+</footer>
+</article>
+</section>
+</div>
+</div>
+<div class=sidebar-toggle>
+<div class=sidebar-toggle-line-wrap>
+<span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
 <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-<span class="sidebar-toggle-line sidebar-toggle-line-last"></span></div></div><aside id=sidebar class=sidebar><div class=sidebar-inner><section class="site-overview sidebar-panel sidebar-panel-active"><div class="site-author motion-element" itemprop=author itemscope itemtype=http://schema.org/Person><img class=site-author-image itemprop=image src=/img/erwin.png alt="علی‌رضا یونسی"><p class=site-author-name itemprop=name>علی‌رضا یونسی</p><p class="site-description motion-element" itemprop=description>For in much wisdom is much vexation, and he who increases knowledge increases sorrow.</p></div><nav class="site-state motion-element"><div class="site-state-item site-state-posts"><a href=/fa/post/><span class=site-state-item-count>7</span>
-<span class=site-state-item-name>پست</span></a></div><div class="site-state-item site-state-categories"><a href=/fa/categories/><span class=site-state-item-count>8</span>
-<span class=site-state-item-name>دسته‌بندی</span></a></div><div class="site-state-item site-state-tags"><a href=/fa/tags/><span class=site-state-item-count>48</span>
-<span class=site-state-item-name>تگ</span></a></div></nav><div class="links-of-author motion-element"><span class=links-of-author-item><a href=https://github.com/AYoonesi/ target=_blank title=گیت‌هاب><i class="fa fa-fw fa-github"></i>
-گیت‌هاب</a></span>
-<span class=links-of-author-item><a href=https://instagram.com/_alireza.yoonesi target=_blank title=اینستاگرام><i class="fa fa-fw fa-globe"></i>
-اینستاگرام</a></span></div><div class="links-of-blogroll motion-element links-of-blogroll-inline"><div class=links-of-blogroll-title><i class="fa fa-fw fa-globe"></i>
-لینک‌ها</div><ul class=links-of-blogroll-list><li class=links-of-blogroll-item><a href=http://paracurve.com/ title=پاراکرو target=_blank>پاراکرو</a></li><li class=links-of-blogroll-item><a href=https://www.ft.com/ title="فایننشال تایمز" target=_blank>فایننشال تایمز</a></li><li class=links-of-blogroll-item><a href=https://www.economist.com/ title=اکونومیست target=_blank>اکونومیست</a></li><li class=links-of-blogroll-item><a href=http://libgen.rs/ title="لایبرری جنسیس" target=_blank>لایبرری جنسیس</a></li></ul></div><div class="tagcloud-of-blogroll motion-element tagcloud-of-blogroll-inline"><div class=tagcloud-of-blogroll-title><i class="fa fa-fw fa-tags"></i>
-ابرک تگ‌ها</div><ul class=tagcloud-of-blogroll-list><li class=tagcloud-of-blogroll-item><a href=/fa/tags/%D8%A2%D9%85%D9%88%D8%B2%D8%B4>آموزش</a></li><li class=tagcloud-of-blogroll-item><a href=/fa/tags/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3%DB%8C>برنامهنویسی</a></li><li class=tagcloud-of-blogroll-item><a href=/fa/tags/%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86>پایتون</a></li><li class=tagcloud-of-blogroll-item><a href=/fa/tags/%DA%A9%D8%AA%D8%A7%D8%A8>کتاب</a></li><li class=tagcloud-of-blogroll-item><a href=/fa/tags/economics>Economics</a></li><li class=tagcloud-of-blogroll-item><a href=/fa/tags/education>Education</a></li><li class=tagcloud-of-blogroll-item><a href=/fa/tags/finance>Finance</a></li><li class=tagcloud-of-blogroll-item><a href=/fa/tags/programming>Programming</a></li><li class=tagcloud-of-blogroll-item><a href=/fa/tags/python>Python</a></li><li class=tagcloud-of-blogroll-item><a href=/fa/tags/vscode>Vscode</a></li></ul></div></section></div></aside></div></main><footer id=footer class=footer><div class=footer-inner><div class=copyright><span class=copyright-year>&copy; 2010 - 2022</span>
+<span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+</div>
+</div>
+<aside id=sidebar class=sidebar>
+<div class=sidebar-inner>
+<section class="site-overview sidebar-panel sidebar-panel-active">
+<div class="site-author motion-element" itemprop=author itemscope itemtype=http://schema.org/Person>
+<img class=site-author-image itemprop=image src=/img/erwin.png alt="علی‌رضا یونسی">
+<p class=site-author-name itemprop=name>علی‌رضا یونسی</p>
+<p class="site-description motion-element" itemprop=description>
+For in much wisdom is much vexation, and he who increases knowledge increases sorrow.
+</p>
+</div>
+<nav class="site-state motion-element">
+<div class="site-state-item site-state-posts">
+<a href=/fa/post/>
+<span class=site-state-item-count>7</span>
+<span class=site-state-item-name>پست</span>
+</a>
+</div>
+<div class="site-state-item site-state-categories">
+<a href=/fa/categories/>
+<span class=site-state-item-count>8</span>
+<span class=site-state-item-name>دسته‌بندی</span>
+</a>
+</div>
+<div class="site-state-item site-state-tags">
+<a href=/fa/tags/>
+<span class=site-state-item-count>48</span>
+<span class=site-state-item-name>تگ</span>
+</a>
+</div>
+</nav>
+<div class="links-of-author motion-element">
+<span class=links-of-author-item>
+<a href=https://github.com/AYoonesi/ target=_blank title=گیت‌هاب>
+<i class="fa fa-fw fa-github"></i>
+گیت‌هاب
+</a>
+</span>
+<span class=links-of-author-item>
+<a href=https://instagram.com/_alireza.yoonesi target=_blank title=اینستاگرام>
+<i class="fa fa-fw fa-globe"></i>
+اینستاگرام
+</a>
+</span>
+</div>
+<div class="links-of-blogroll motion-element links-of-blogroll-inline">
+<div class=links-of-blogroll-title>
+<i class="fa fa-fw fa-globe"></i>
+لینک‌ها
+</div>
+<ul class=links-of-blogroll-list>
+<li class=links-of-blogroll-item>
+<a href=http://paracurve.com/ title=پاراکرو target=_blank>پاراکرو</a>
+</li>
+<li class=links-of-blogroll-item>
+<a href=https://www.ft.com/ title="فایننشال تایمز" target=_blank>فایننشال تایمز</a>
+</li>
+<li class=links-of-blogroll-item>
+<a href=https://www.economist.com/ title=اکونومیست target=_blank>اکونومیست</a>
+</li>
+<li class=links-of-blogroll-item>
+<a href=http://libgen.rs/ title="لایبرری جنسیس" target=_blank>لایبرری جنسیس</a>
+</li>
+</ul>
+</div>
+<div class="tagcloud-of-blogroll motion-element tagcloud-of-blogroll-inline">
+<div class=tagcloud-of-blogroll-title>
+<i class="fa fa-fw fa-tags"></i>
+ابرک تگ‌ها
+</div>
+<ul class=tagcloud-of-blogroll-list>
+<li class=tagcloud-of-blogroll-item>
+<a href=/fa/tags/%D8%A2%D9%85%D9%88%D8%B2%D8%B4>آموزش</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/fa/tags/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3%DB%8C>برنامهنویسی</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/fa/tags/%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86>پایتون</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/fa/tags/%DA%A9%D8%AA%D8%A7%D8%A8>کتاب</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/fa/tags/economics>Economics</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/fa/tags/education>Education</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/fa/tags/finance>Finance</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/fa/tags/programming>Programming</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/fa/tags/python>Python</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/fa/tags/vscode>Vscode</a>
+</li>
+</ul>
+</div>
+</section>
+</div>
+</aside>
+</div>
+</main>
+<footer id=footer class=footer>
+<div class=footer-inner>
+<div class=copyright>
+<span class=copyright-year>
+&copy; 2010 - 2022
+</span>
 <span class=with-love><i class="fa fa-heart"></i></span>
-<span class=copyright-author>علیرضا یونسی - L'instit</span></div><div class=powered-info><span class=powered-by>Powered by - <a class=powered-link href=//gohugo.io target=_blank title=hugo>Hugo v0.96.0</a></span>
+<span class=copyright-author>علیرضا یونسی - L'instit</span>
+</div>
+<div class=powered-info>
+<span class=powered-by>
+Powered by - <a class=powered-link href=//gohugo.io target=_blank title=hugo>Hugo v0.92.2</a>
+</span>
 <span class=separator-line>/</span>
-<span class=theme-info>Theme by - <a class=powered-link href=//github.com/elkan1788/hugo-theme-next target=_blank>NexT</a></span></div><div class=vistor-info><script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script>
-<span class=site-uv><i class="fa fa-user"></i>
-<span class=busuanzi-value id=busuanzi_value_site_uv></span></span>
+<span class=theme-info>
+Theme by - <a class=powered-link href=//github.com/elkan1788/hugo-theme-next target=_blank> NexT
+</a>
+</span>
+</div>
+<div class=vistor-info>
+<script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script>
+<span class=site-uv>
+<i class="fa fa-user"></i>
+<span class=busuanzi-value id=busuanzi_value_site_uv></span>
+</span>
 <span class=separator-line>/</span>
-<span class=site-pv><i class="fa fa-eye"></i>
-<span class=busuanzi-value id=busuanzi_value_site_pv></span></span></div><div class=license-info><span class=storage-info>Storage by
-<a href=https://www.ucloud.cn/ style=font-weight:700 target=_blank>UCloud Storage</a></span>
+<span class=site-pv>
+<i class="fa fa-eye"></i>
+<span class=busuanzi-value id=busuanzi_value_site_pv></span>
+</span>
+</div>
+<div class=license-info>
+<span class=storage-info>
+Storage by
+<a href=https://www.ucloud.cn/ style=font-weight:700 target=_blank>UCloud Storage</a>
+</span>
 <span class=separator-line>/</span>
-<span class=license-num><a href=http://beian.miit.gov.cn target=_blank>ICP.NO 18047355</a></span></div></div></footer><div class=back-to-top><i class="fa fa-arrow-up"></i>
-<span id=scrollpercent><span>0</span>%</span></div></div><script type=text/javascript src=//cdn.bootcdn.net/ajax/libs/jquery/2.1.4/jquery.min.js></script>
+<span class=license-num>
+<a href=http://beian.miit.gov.cn target=_blank>ICP.NO 18047355</a>
+</span>
+</div>
+</div>
+</footer>
+<div class=back-to-top>
+<i class="fa fa-arrow-up"></i>
+<span id=scrollpercent><span>0</span>%</span>
+</div>
+</div>
+<script type=text/javascript src=//cdn.bootcdn.net/ajax/libs/jquery/2.1.4/jquery.min.js></script>
 <script type=text/javascript src=/js/search.js></script>
 <script type=text/javascript src=/js/affix.js></script>
 <script type=text/javascript src=/js/scrollspy.js></script>
-<script type=text/javascript>function detectIE(){var e=window.navigator.userAgent,t=e.indexOf("MSIE "),n=e.indexOf("Trident/"),s=e.indexOf("Edge/");return t>0||n>0||s>0?-1:1}function getCntViewHeight(){var t=$("#content").height(),e=$(window).height(),n=t>e?t-e:$(document).height()-e;return n}function getScrollbarWidth(){var e=$("<div />").addClass("scrollbar-measure").prependTo("body"),t=e[0],n=t.offsetWidth-t.clientWidth;return e.remove(),n}function registerBackTop(){var t=50,e=$(".back-to-top");$(window).on("scroll",function(){e.toggleClass("back-to-top-on",window.pageYOffset>t);var s=$(window).scrollTop(),o=getCntViewHeight(),i=s/o,n=Math.round(i*100),a=n>100?100:n;$("#scrollpercent>span").html(a)}),e.on("click",function(){$("html,body").animate({scrollTop:0,screenLeft:0},800)})}function initScrollSpy(){var e=".post-toc",s=$(e),t=".active-current";s.on("activate.bs.scrollspy",function(){var t=$(e+" .active").last();n(),t.addClass("active-current")}).on("clear.bs.scrollspy",n),$("body").scrollspy({target:e});function n(){$(e+" "+t).removeClass(t.substring(1))}}function initAffix(){var e=$(".header-inner").height(),t=parseInt($(".main").css("padding-bottom"),10),n=e+10;$(".sidebar-inner").affix({offset:{top:n,bottom:t}}),$(document).on("affixed.bs.affix",function(){updateTOCHeight(document.body.clientHeight-100)})}function initTOCDimension(){$(window).on("resize",function(){e&&clearTimeout(e),e=setTimeout(function(){var e=document.body.clientHeight-100;updateTOCHeight(e)},0)}),updateTOCHeight(document.body.clientHeight-100);var e,t=getScrollbarWidth();$(".post-toc").css("width","calc(100% + "+t+"px)")}function updateTOCHeight(e){e=e||"auto",$(".post-toc").css("max-height",e)}$(function(){var t=$(".header-inner").height()+10,n,s,e,o;$("#sidebar").css({'margin-top':t}).show(),n=parseInt($("#sidebar").css("margin-top")),s=parseInt($(".sidebar-inner").css("height")),e=n+s,o=$(".content-wrap").height(),o<e&&$(".content-wrap").css("min-height",e),$(".site-nav-toggle").on("click",function(){var e=$(".site-nav"),o=$(".toggle"),t="site-nav-on",i="toggle-close",n=e.hasClass(t),a=n?"slideUp":"slideDown",s=n?"removeClass":"addClass";e.stop()[a]("normal",function(){e[s](t),o[s](i)})}),registerBackTop(),initScrollSpy(),initAffix(),initTOCDimension(),$(".sidebar-nav-toc").click(function(){$(this).addClass("sidebar-nav-active"),$(this).next().removeClass("sidebar-nav-active"),$("."+$(this).next().attr("data-target")).toggle(500),$("."+$(this).attr("data-target")).toggle(500)}),$(".sidebar-nav-overview").click(function(){$(this).addClass("sidebar-nav-active"),$(this).prev().removeClass("sidebar-nav-active"),$("."+$(this).prev().attr("data-target")).toggle(500),$("."+$(this).attr("data-target")).toggle(500)})})</script><script src=//cdn.bootcdn.net/ajax/libs/imageviewer/0.1.0/viewer.min.js></script>
-<script type=text/javascript>$(function(){$(".post-body").viewer()})</script><script type=text/javascript src="//s7.addthis.com/js/300/addthis_widget.js#pubid=Your%20AddthisId"></script>
-<script>(function(){var e=document.createElement("script"),t,n=window.location.protocol.split(":")[0];n==="https"?e.src="https://zz.bdstatic.com/linksubmit/push.js":e.src="http://push.zhanzhang.baidu.com/push.js",t=document.getElementsByTagName("script")[0],t.parentNode.insertBefore(e,t)})()</script></body></html>
+<script type=text/javascript>function detectIE(){var a=window.navigator.userAgent,b=a.indexOf('MSIE '),c=a.indexOf('Trident/'),d=a.indexOf('Edge/');return b>0||c>0||d>0?-1:1}function getCntViewHeight(){var b=$('#content').height(),a=$(window).height(),c=b>a?b-a:$(document).height()-a;return c}function getScrollbarWidth(){var a=$('<div />').addClass('scrollbar-measure').prependTo('body'),b=a[0],c=b.offsetWidth-b.clientWidth;return a.remove(),c}function registerBackTop(){var b=50,a=$('.back-to-top');$(window).on('scroll',function(){var d,e,f,c,g;a.toggleClass('back-to-top-on',window.pageYOffset>b),d=$(window).scrollTop(),e=getCntViewHeight(),f=d/e,c=Math.round(f*100),g=c>100?100:c,$('#scrollpercent>span').html(g)}),a.on('click',function(){$("html,body").animate({scrollTop:0,screenLeft:0},800)})}function initScrollSpy(){var a='.post-toc',d=$(a),b='.active-current';d.on('activate.bs.scrollspy',function(){var b=$(a+' .active').last();c(),b.addClass('active-current')}).on('clear.bs.scrollspy',c),$('body').scrollspy({target:a});function c(){$(a+' '+b).removeClass(b.substring(1))}}function initAffix(){var a=$('.header-inner').height(),b=parseInt($('.main').css('padding-bottom'),10),c=a+10;$('.sidebar-inner').affix({offset:{top:c,bottom:b}}),$(document).on('affixed.bs.affix',function(){updateTOCHeight(document.body.clientHeight-100)})}function initTOCDimension(){var a,b;$(window).on('resize',function(){a&&clearTimeout(a),a=setTimeout(function(){var a=document.body.clientHeight-100;updateTOCHeight(a)},0)}),updateTOCHeight(document.body.clientHeight-100),b=getScrollbarWidth(),$('.post-toc').css('width','calc(100% + '+b+'px)')}function updateTOCHeight(a){a=a||'auto',$('.post-toc').css('max-height',a)}$(function(){var b=$('.header-inner').height()+10,c,d,a,e;$('#sidebar').css({'margin-top':b}).show(),c=parseInt($('#sidebar').css('margin-top')),d=parseInt($('.sidebar-inner').css('height')),a=c+d,e=$('.content-wrap').height(),e<a&&$('.content-wrap').css('min-height',a),$('.site-nav-toggle').on('click',function(){var a=$('.site-nav'),e=$('.toggle'),b='site-nav-on',f='toggle-close',c=a.hasClass(b),g=c?'slideUp':'slideDown',d=c?'removeClass':'addClass';a.stop()[g]('normal',function(){a[d](b),e[d](f)})}),registerBackTop(),initScrollSpy(),initAffix(),initTOCDimension(),$('.sidebar-nav-toc').click(function(){$(this).addClass('sidebar-nav-active'),$(this).next().removeClass('sidebar-nav-active'),$('.'+$(this).next().attr('data-target')).toggle(500),$('.'+$(this).attr('data-target')).toggle(500)}),$('.sidebar-nav-overview').click(function(){$(this).addClass('sidebar-nav-active'),$(this).prev().removeClass('sidebar-nav-active'),$('.'+$(this).prev().attr('data-target')).toggle(500),$('.'+$(this).attr('data-target')).toggle(500)})})</script>
+<script src=//cdn.bootcdn.net/ajax/libs/imageviewer/0.1.0/viewer.min.js></script>
+<script type=text/javascript>$(function(){$('.post-body').viewer()})</script>
+<script type=text/javascript src="//s7.addthis.com/js/300/addthis_widget.js#pubid=Your%20AddthisId"></script>
+<script>(function(){var a=document.createElement('script'),c=window.location.protocol.split(':')[0],b;c==='https'?a.src='https://zz.bdstatic.com/linksubmit/push.js':a.src='http://push.zhanzhang.baidu.com/push.js',b=document.getElementsByTagName("script")[0],b.parentNode.insertBefore(a,b)})()</script>
+</body>
+</html>
