@@ -64,6 +64,6 @@ body, span, time, li {
 }
 
 .site-description {
-    direction: ltr;
+    /* direction: ltr; */
     font-size: 14px;
 }
