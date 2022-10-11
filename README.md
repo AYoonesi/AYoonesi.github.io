@@ -29,6 +29,7 @@ L' instit (The School Teacher) portrayed by Gerard Klein (Victor Novak) is a cha
 + [X] Post: [The Truth About Why Programmers Are More Intelligent Than Doctors?](https://medium.com/@AYoonesi/the-truth-about-why-programmers-are-more-intelligent-than-doctors-c5563fc45db5)
 + [X] Post: [Did The War In Iraq Create Jobs For Americans?](https://medium.com/@AYoonesi/did-the-war-in-iraq-create-jobs-for-americans-654bd03a388a)
 + [X] Post: [Why You Need To Ditch Calling Your Boy/Girl Smart?](https://medium.com/just-to-talk-about/why-you-need-to-ditch-calling-your-boy-girl-smart-19f6cd4152fd)
++ [X] Project: [YouTube WordCloud with Flask in Python](https://github.com/AYoonesi/yt-cloud)
 + [ ] Post: [The reform of food subsidies under the Raisi administration by *Djavad Salehi-Isfahani*](https://djavadsalehi.com/2022/05/19/the-reform-of-food-subsidies-under-the-raisi-administration/)
 + [ ] Post: Democracy in Switzerland + H. Bashirie on voting and sword and stuff
 + [ ] Post III
