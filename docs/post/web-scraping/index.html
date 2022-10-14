@@ -1,0 +1,449 @@
+<!doctype html><html lang=en dir=content/en>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta http-equiv=content-security-policy content="upgrade-insecure-requests">
+<title> Web Scraping Series: 01 Intro - Alireza Yoonesi - L'instit </title>
+<meta name=keywords content="Blog,Software,Big Data,Programming,Python,Machine Learning,Data Science">
+<meta name=author content="Alireza Yoonesi">
+<meta property="og:title" content="Web Scraping Series: 01 Intro">
+<meta property="og:site_name" content="Alireza Yoonesi - L'instit">
+<meta property="og:image" content="/img/author.jpg">
+<meta name=title content="Web Scraping Series: 01 Intro - Alireza Yoonesi - L'instit">
+<meta name=description content="Is the Iraq War to Blame for the Economic Collapse? War is difficult enough to discuss; the Iraq conflict is far more complicated. Let’s take a different path: Keynesian Economics.">
+<link rel="shortcut icon" href=/img/favicon.ico>
+<link rel=apple-touch-icon href=/img/apple-touch-icon.png>
+<link rel=apple-touch-icon-precomposed href=/img/apple-touch-icon.png>
+<link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css rel=stylesheet type=text/css>
+<link href=https://cdnjs.cloudflare.com/ajax/libs/imageviewer/0.1.0/viewer.min.css rel=stylesheet>
+<link href=/css/main.css rel=stylesheet type=text/css>
+<link href=/css/syntax.css rel=stylesheet type=text/css>
+<script data-host=https://analytics.h-supertools.com data-dnt=false src=https://analytics.h-supertools.com/js/script.js id=ZwSg9rf6GA async defer></script>
+</head>
+<body itemscope itemtype=http://schema.org/WebPage lang=en-us>
+<div class="container one-collumn sidebar-position-left page-home">
+<div class=headband></div>
+<header id=header class=header itemscope itemtype=http://schema.org/WPHeader>
+<div class=header-inner>
+<div class=site-brand-container>
+<div class=site-nav-toggle>
+<div class=toggle role=button style=opacity:1;top:0>
+<span class=toggle-line></span>
+<span class=toggle-line></span>
+<span class=toggle-line></span>
+</div>
+</div>
+<div class=site-meta>
+<div class=multi-lang-switch>
+<i class="fa fa-fw fa-language" style=margin-right:5px></i>
+<a class=lang-link id=en href=#>English</a>
+</div>
+<div class=custom-logo-site-title>
+<a href=/ class=brand rel=start>
+<span class=logo-line-before><i></i></span>
+<span class=site-title>Alireza Yoonesi - L'instit</span>
+<span class=logo-line-after><i></i></span>
+</a>
+</div>
+<p class=site-subtitle>My Blog & Other Stuff</p>
+</div>
+<div class=site-nav-right>
+<div class="toggle popup-trigger" style=opacity:1;top:0>
+<i class="fa fa-search fa-fw fa-lg"></i>
+</div>
+</div>
+</div>
+<nav class=site-nav>
+<ul id=menu class=menu>
+<li class=menu-item>
+<a href=/ rel=section>
+<i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home
+</a>
+</li>
+<li class=menu-item>
+<a href=/post rel=section>
+<i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archive
+</a>
+</li>
+<li class=menu-item>
+<a href=/about/ rel=section>
+<i class="menu-item-icon fa fa-fw fa-user"></i> <br>About
+</a>
+</li>
+<li class=menu-item>
+<a href=/contact rel=section>
+<i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>Contact
+</a>
+</li>
+<li class=menu-item>
+<a href=/projects rel=section>
+<i class="menu-item-icon fa fa-fw fa-code"></i> <br>Projects
+</a>
+</li>
+<li class=menu-item>
+<a href=https://medium.com/@AYoonesi rel=section>
+<i class="menu-item-icon fa fa-fw fa-info-circle"></i> <br>My Medium
+</a>
+</li>
+<li class=menu-item>
+<a href=https://www.linkedin.com/in/AYoonesi/ rel=section>
+<i class="menu-item-icon fa fa-fw fa-linkedin"></i> <br>My Linked-In
+</a>
+</li>
+<li class=menu-item>
+<a href=https://github.com/AYoonesi/ rel=section>
+<i class="menu-item-icon fa fa-fw fa-github"></i> <br>My GitHub
+</a>
+</li>
+<li class="menu-item menu-item-search">
+<a href=javascript:; class=popup-trigger> <i class="menu-item-icon fa fa-search fa-fw"></i> <br> Search</a>
+</li>
+</ul>
+<div class=site-search>
+<div class="popup search-popup local-search-popup">
+<div class="local-search-header clearfix">
+<span class=search-icon><i class="fa fa-search"></i> </span>
+<span class=popup-btn-close><i class="fa fa-times-circle"></i></span>
+<div class=local-search-input-wrapper>
+<input autocomplete=off placeholder="Enter key words..." spellcheck=false type=text id=local-search-input autocapitalize=none autocorrect=off>
+</div>
+</div>
+<div id=local-search-result></div>
+</div>
+</div>
+</nav>
+</div>
+</header>
+<main id=main class=main>
+<div class=main-inner>
+<div class=content-wrap>
+<div id=content class=content>
+<section id=posts class=posts-expand>
+<article class="post post-type-normal" itemscope itemtype=http://schema.org/Article>
+<header class=post-header>
+<h1 class=post-title itemprop="name headline">
+<a class=post-title-link href=https://linstit.pw/post/web-scraping/ itemprop=url>
+Web Scraping Series: 01 Intro
+</a>
+</h1>
+<div class=post-meta>
+<span class=post-time>
+<i class="fa fa-calendar-o fa-fw"></i>
+<span class=post-meta-item-text>Published at:</span>
+<time itemprop=dateCreated datetime=2016-03-22T13:04:35+08:00 content="2022/10/14">
+2022/10/14
+</time>
+</span>
+<span class=post-category>
+&nbsp; | &nbsp;
+<i class="fa fa-folder-o fa-fw"></i>
+<span class=post-meta-item-text>Categories:</span>
+<span itemprop=about itemscope itemtype=https://schema.org/Thing>
+<a href=/categories/programming itemprop=url rel=index style=text-decoration:underline>
+<span itemprop=name>Programming</span>
+</a>
+&nbsp;
+</span>
+<span itemprop=about itemscope itemtype=https://schema.org/Thing>
+<a href=/categories/python itemprop=url rel=index style=text-decoration:underline>
+<span itemprop=name>Python</span>
+</a>
+&nbsp;
+</span>
+<span itemprop=about itemscope itemtype=https://schema.org/Thing>
+<a href=/categories/articles itemprop=url rel=index style=text-decoration:underline>
+<span itemprop=name>Articles</span>
+</a>
+&nbsp;
+</span>
+</span>
+<span>
+<i class="fa fa-file-word-o fa-fw"></i>
+<span class=post-meta-item-text>Words:</span>
+<span class=leancloud-world-count>630 words</span>
+</span>
+<span>
+|
+<i class="fa fa-eye fa-fw"></i>
+<span class=post-meta-item-text>Reading:</span>
+<span class=leancloud-view-count>3 minutes</span>
+</span>
+<span id=/post/web-scraping/ class=leancloud_visitors data-flag-title="Web Scraping Series: 01 Intro">
+|
+<i class="fa fa-binoculars fa-fw"></i>
+<span class=post-meta-item-text>Visited:</span>
+<span class=leancloud-visitors-count></span>
+</span>
+</div>
+</header>
+<div class=post-body itemprop=articleBody>
+<p><img src=/post/web-scraping/intro.png alt="What exactly is web scraping?" title="What exactly is web scraping?"></p>
+<div class=news-lead>
+Data can also be obtained by scraping web pages. It turns out that fetching online pages is simple; obtaining useful structured information from them is more difficult.
+</div>
+<h2 id=intro>Intro</h2>
+<p>Putting APIs aside, data may also be obtained through scraping web pages. It turns out that retrieving online pages is quite simple, but extrapolating useful, organized information from them is more difficult.</p>
+<p>Let&rsquo;s say you&rsquo;re looking for information on a website. Let&rsquo;s talk a little bit about Milton friedman! How do you behave? You might, however, copy the data from Wikipedia and put it into your own file. But what if you need a website to provide you with a lot of information as rapidly as possible? Using a website&rsquo;s massive volumes of data to train a machine learning algorithm? Copying and pasting won&rsquo;t work in this circumstance! And at that point, web scraping will be required.</p>
+<p>Web scraping employs intelligent automation approaches to get hundreds or even millions of data sets in less time than the tedious and time-consuming process of manually gathering data. So let&rsquo;s explore Web scraping in more detail and learn how to apply it to get information from other websites.</p>
+<h2 id=what-is-web-scraping>What Is Web Scraping?</h2>
+<p>Web scraping is a computerized technique for gathering copious volumes of data from websites. The majority of this data is unstructured in HTML format and is transformed into structured data in a database or spreadsheet so that it may be used in multiple applications. To collect data from websites, web scraping may be done in a variety of methods. These include leveraging specific APIs, online services, or even writing your own code from scratch for web scraping.</p>
+<p>You may access the structured data on many huge websites, like Google, Twitter, Facebook, StackOverflow, and others, via their APIs. This is the greatest choice, however there are alternative websites that either lack the technological sophistication or don&rsquo;t let users to access significant volumes of structured data. In that case, it&rsquo;s advisable to employ web scraping to get data from the website.</p>
+<p>The scraper and the crawler are the two components needed for web scraping. The crawler is an artificial intelligence system that searches the internet for the specific data needed by clicking on links. On the other hand, the scraper is a unique tool designed to extract data from the website. The scraper&rsquo;s architecture might vary significantly depending on the difficulty and size of the project in order to efficiently and precisely extract the data.</p>
+<h2 id=html>HTML</h2>
+<p>Pages on the web are written in HTML, in which text is (ideally) marked up into elements and their attributes:</p>
+<pre><code>&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;A web page&lt;/title&gt;
+    &lt;/head&gt;
+&lt;body&gt;
+    &lt;p id=&quot;author&quot;&gt;Alireza Yoonesi&lt;/p&gt;
+    &lt;p id=&quot;subject&quot;&gt;Machine Learning&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>We would be able to extract data using rules like &ldquo;find the <em>p</em> element whose id is topic and return the text it contains&rdquo; in a perfect world where all web pages were semantically marked up for our convenience. HTML isn&rsquo;t often well-formed or annotated in the real world. Thus, we will require assistance in understanding it.</p>
+<p>The <a href=https://www.crummy.com/software/BeautifulSoup/>Beautiful Soup</a> package, which creates a tree out of the various components on a web page and offers a straightforward interface for accessing them, will be used to extract data from HTML. We&rsquo;ll be using Beautiful Soup 4.11.1 (April 8, 2022), which is the most recent version as of this writing. We’ll also be using the Requests library, which is a much nicer way of making HTTP requests than anything that’s built into Python.</p>
+<p>Python’s built-in HTML parser is not that lenient, which means that it doesn’t always cope well with HTML that’s not perfectly formed. For that reason, we’ll also install the html5lib parser.</p>
+<hr>
+<h1 id=to-be-continued>To Be Continued!</h1>
+<p><strong>You may read the full articles on my <a href=https://medium.com/@AYoonesi/>Medium</a>.</strong></p>
+<h1 id=did-the-war-in-iraq-create-jobs-for-americanshttpsmediumcomayoonesidid-the-war-in-iraq-create-jobs-for-americans-654bd03a388a><a href=https://medium.com/@AYoonesi/did-the-war-in-iraq-create-jobs-for-americans-654bd03a388a>Did The War In Iraq Create Jobs For Americans?</a></h1>
+</div>
+<footer class=post-footer>
+<div class=post-tags>
+<a href=/tags/web-scraping rel=tag title="Web Scraping">#Web Scraping#</a>
+<a href=/tags/python rel=tag title=Python>#Python#</a>
+<a href=/tags/articles rel=tag title=Articles>#Articles#</a>
+<a href=/tags/medium rel=tag title=Medium>#Medium#</a>
+<a href=/tags/programming rel=tag title=Programming>#Programming#</a>
+<a href=/tags/data-science rel=tag title="Data Science">#Data Science#</a>
+</div>
+<div class=addthis_inline_share_toolbox></div>
+<div class=post-nav>
+<div class=article-copyright>
+<div class=article-copyright-img>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=129x129&data=https%3a%2f%2flinstit.pw%2fpost%2fweb-scraping%2f" width=129px height=129px>
+<div style=text-align:center>QQ QrCode</div>
+</div>
+<div class=article-copyright-info>
+<p>
+<span>Declaration：</span>Web Scraping Series: 01 Intro
+</p>
+<p>
+<span>Link：</span>https://linstit.pw/post/web-scraping/
+</p>
+<p>
+<span>Author：</span>Alireza Yoonesi
+</p>
+<p>
+<span>Declaration： </span>This blog post article is under the <a href=https://creativecommons.org/licenses/by-nc-sa/3.0/ target=_blank style=text-decoration:underline>CC BY-NC-SA 3.0</a> license,Please indicate the source!
+</p>
+</div>
+</div>
+<div class=clear></div>
+</div>
+<div hidden class=reward-qr-info>
+<div>If it can help you, you can give tips for blogger that how much you want. ^_^</div>
+<button id=rewardButton disable=enable onclick="var qr=document.getElementById('QR');qr.style.display==='none'?qr.style.display='block':qr.style.display='none'">
+<span>Reward</span>
+</button>
+<div id=QR style=display:none>
+<div id=wechat style=display:inline-block>
+<img id=wechat_qr src=/img/wechat-pay.png alt="WeChat Pay">
+<p>Wechat Pay</p>
+</div>
+<div id=alipay style=display:inline-block>
+<img id=alipay_qr src=/img/ali-pay.png alt=Alipay>
+<p>Ali Pay</p>
+</div>
+</div>
+</div>
+<div class=post-nav>
+<div class="post-nav-next post-nav-item">
+</div>
+<div class="post-nav-prev post-nav-item">
+<a href=https://linstit.pw/post/why-you-need-to-ditch-calling-your-boy-girl-smart/ rel=prev title="Why You Need To Ditch Calling Your Boy/Girl Smart?">
+Why You Need To Ditch Calling Your Boy/Girl Smart?
+<i class="fa fa-chevron-right"></i>
+</a>
+</div>
+</div>
+</footer>
+</article>
+</section>
+</div>
+</div>
+<div class=sidebar-toggle>
+<div class=sidebar-toggle-line-wrap>
+<span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+<span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+<span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+</div>
+</div>
+<aside id=sidebar class=sidebar>
+<div class=sidebar-inner>
+<section class="site-overview sidebar-panel sidebar-panel-active">
+<div class="site-author motion-element" itemprop=author itemscope itemtype=http://schema.org/Person>
+<img class=site-author-image itemprop=image src=/img/me.png alt="Alireza Yoonesi">
+<p class=site-author-name itemprop=name>Alireza Yoonesi</p>
+<p class="site-description motion-element" itemprop=description>
+For in much wisdom is much vexation, and he who increases knowledge increases sorrow.
+</p>
+</div>
+<nav class="site-state motion-element">
+<div class="site-state-item site-state-posts">
+<a href=/post/>
+<span class=site-state-item-count>7</span>
+<span class=site-state-item-name>Blogs</span>
+</a>
+</div>
+<div class="site-state-item site-state-categories">
+<a href=/categories/>
+<span class=site-state-item-count>10</span>
+<span class=site-state-item-name>Categories</span>
+</a>
+</div>
+<div class="site-state-item site-state-tags">
+<a href=/tags/>
+<span class=site-state-item-count>31</span>
+<span class=site-state-item-name>Tags</span>
+</a>
+</div>
+</nav>
+<div class="links-of-author motion-element">
+<span class=links-of-author-item>
+<a href=https://github.com/AYoonesi/ target=_blank title=GitHub>
+<i class="fa fa-fw fa-github"></i>
+GitHub
+</a>
+</span>
+<span class=links-of-author-item>
+<a href=https://instagram.com/_alireza.yoonesi target=_blank title=Instagram>
+<i class="fa fa-fw fa-globe"></i>
+Instagram
+</a>
+</span>
+</div>
+<div class="links-of-blogroll motion-element links-of-blogroll-inline">
+<div class=links-of-blogroll-title>
+<i class="fa fa-fw fa-globe"></i>
+Links
+</div>
+<ul class=links-of-blogroll-list>
+<li class=links-of-blogroll-item>
+<a href=http://paracurve.com/ title=Paracurve target=_blank>Paracurve</a>
+</li>
+<li class=links-of-blogroll-item>
+<a href=https://www.ft.com/ title="Financial Times" target=_blank>Financial Times</a>
+</li>
+<li class=links-of-blogroll-item>
+<a href=https://www.economist.com/ title="The Economist" target=_blank>The Economist</a>
+</li>
+<li class=links-of-blogroll-item>
+<a href=http://libgen.rs/ title="Library Genesis" target=_blank>Library Genesis</a>
+</li>
+</ul>
+</div>
+<div class="tagcloud-of-blogroll motion-element tagcloud-of-blogroll-inline">
+<div class=tagcloud-of-blogroll-title>
+<i class="fa fa-fw fa-tags"></i>
+TagCloud
+</div>
+<ul class=tagcloud-of-blogroll-list>
+<li class=tagcloud-of-blogroll-item>
+<a href=/tags/articles>Articles</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/tags/medium>Medium</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/tags/creativity>Creativity</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/tags/free>Free</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/tags/programming>Programming</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/tags/python>Python</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/tags/beatrice>Beatrice</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/tags/book>Book</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/tags/books>Books</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
+<a href=/tags/culture>Culture</a>
+</li>
+</ul>
+</div>
+</section>
+</div>
+</aside>
+</div>
+</main>
+<footer id=footer class=footer>
+<div class=footer-inner>
+<div class=copyright>
+<span class=copyright-year>
+&copy; 2010 - 2022
+</span>
+<span class=with-love><i class="fa fa-heart"></i></span>
+<span class=copyright-author>Alireza Yoonesi - L'instit</span>
+</div>
+<div class=powered-info>
+<span class=powered-by>
+Powered by - <a class=powered-link href=//gohugo.io target=_blank title=hugo>Hugo v0.92.2</a>
+</span>
+<span class=separator-line>/</span>
+<span class=theme-info>
+Theme by - <a class=powered-link href=//github.com/elkan1788/hugo-theme-next target=_blank> NexT
+</a>
+</span>
+</div>
+<div class=vistor-info>
+<script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script>
+<span class=site-uv>
+<i class="fa fa-user"></i>
+<span class=busuanzi-value id=busuanzi_value_site_uv></span>
+</span>
+<span class=separator-line>/</span>
+<span class=site-pv>
+<i class="fa fa-eye"></i>
+<span class=busuanzi-value id=busuanzi_value_site_pv></span>
+</span>
+</div>
+<div class=license-info>
+<span class=storage-info>
+Storage by
+<a href=https://www.Cloudflare.com style=font-weight:700 target=_blank>CloudFlare</a>
+</span>
+<span class=separator-line>/</span>
+<span class=license-num>
+<a href=https://github.com/AYoonesi/AYoonesi.github.io target=_blank>GithHub Repository</a>
+</span>
+</div>
+</div>
+</footer>
+<div class=back-to-top>
+<i class="fa fa-arrow-up"></i>
+<span id=scrollpercent><span>0</span>%</span>
+</div>
+</div>
+<script type=text/javascript src=//cdn.bootcdn.net/ajax/libs/jquery/2.1.4/jquery.min.js></script>
+<script type=text/javascript src=/js/search.js></script>
+<script type=text/javascript src=/js/affix.js></script>
+<script type=text/javascript src=/js/scrollspy.js></script>
+<script type=text/javascript>function detectIE(){var a=window.navigator.userAgent,b=a.indexOf('MSIE '),c=a.indexOf('Trident/'),d=a.indexOf('Edge/');return b>0||c>0||d>0?-1:1}function getCntViewHeight(){var b=$('#content').height(),a=$(window).height(),c=b>a?b-a:$(document).height()-a;return c}function getScrollbarWidth(){var a=$('<div />').addClass('scrollbar-measure').prependTo('body'),b=a[0],c=b.offsetWidth-b.clientWidth;return a.remove(),c}function registerBackTop(){var b=50,a=$('.back-to-top');$(window).on('scroll',function(){var d,e,f,c,g;a.toggleClass('back-to-top-on',window.pageYOffset>b),d=$(window).scrollTop(),e=getCntViewHeight(),f=d/e,c=Math.round(f*100),g=c>100?100:c,$('#scrollpercent>span').html(g)}),a.on('click',function(){$("html,body").animate({scrollTop:0,screenLeft:0},800)})}function initScrollSpy(){var a='.post-toc',d=$(a),b='.active-current';d.on('activate.bs.scrollspy',function(){var b=$(a+' .active').last();c(),b.addClass('active-current')}).on('clear.bs.scrollspy',c),$('body').scrollspy({target:a});function c(){$(a+' '+b).removeClass(b.substring(1))}}function initAffix(){var a=$('.header-inner').height(),b=parseInt($('.main').css('padding-bottom'),10),c=a+10;$('.sidebar-inner').affix({offset:{top:c,bottom:b}}),$(document).on('affixed.bs.affix',function(){updateTOCHeight(document.body.clientHeight-100)})}function initTOCDimension(){var a,b;$(window).on('resize',function(){a&&clearTimeout(a),a=setTimeout(function(){var a=document.body.clientHeight-100;updateTOCHeight(a)},0)}),updateTOCHeight(document.body.clientHeight-100),b=getScrollbarWidth(),$('.post-toc').css('width','calc(100% + '+b+'px)')}function updateTOCHeight(a){a=a||'auto',$('.post-toc').css('max-height',a)}$(function(){var b=$('.header-inner').height()+10,c,d,a,e;$('#sidebar').css({'margin-top':b}).show(),c=parseInt($('#sidebar').css('margin-top')),d=parseInt($('.sidebar-inner').css('height')),a=c+d,e=$('.content-wrap').height(),e<a&&$('.content-wrap').css('min-height',a),$('.site-nav-toggle').on('click',function(){var a=$('.site-nav'),e=$('.toggle'),b='site-nav-on',f='toggle-close',c=a.hasClass(b),g=c?'slideUp':'slideDown',d=c?'removeClass':'addClass';a.stop()[g]('normal',function(){a[d](b),e[d](f)})}),registerBackTop(),initScrollSpy(),initAffix(),initTOCDimension(),$('.sidebar-nav-toc').click(function(){$(this).addClass('sidebar-nav-active'),$(this).next().removeClass('sidebar-nav-active'),$('.'+$(this).next().attr('data-target')).toggle(500),$('.'+$(this).attr('data-target')).toggle(500)}),$('.sidebar-nav-overview').click(function(){$(this).addClass('sidebar-nav-active'),$(this).prev().removeClass('sidebar-nav-active'),$('.'+$(this).prev().attr('data-target')).toggle(500),$('.'+$(this).attr('data-target')).toggle(500)})})</script>
+<script src=//cdn.bootcdn.net/ajax/libs/imageviewer/0.1.0/viewer.min.js></script>
+<script type=text/javascript>$(function(){$('.post-body').viewer()})</script>
+<script type=text/javascript src="//s7.addthis.com/js/300/addthis_widget.js#pubid=Your%20AddthisId"></script>
+<script>(function(){var a=document.createElement('script'),c=window.location.protocol.split(':')[0],b;c==='https'?a.src='https://zz.bdstatic.com/linksubmit/push.js':a.src='http://push.zhanzhang.baidu.com/push.js',b=document.getElementsByTagName("script")[0],b.parentNode.insertBefore(a,b)})()</script>
+</body>
+</html>
