@@ -1,0 +1,44 @@
+Description = "وبلاگ من، جایی که توش حرف می‌زنم؛ زیرا که در حکمتِ بسیار، اندوهِ بسیار است؛ و هرآن‌که بر دانش می‌افزاید، رنج را می‌افزاید."
+Keywords =  "Blog, Software, Big Data, برنامه‌نویسی, پایتون, نوشتن, اقتصاد, سیاست"
+Subtitle = "وبلاگ علی‌رضا/علی/اروین"
+AuthorImg = "/img/me.png"
+AuthorName = "علی‌رضا یونسی"
+Introduce = "زیرا که در حکمتِ بسیار، اندوهِ بسیار است؛ و هرآن‌که بر دانش می‌افزاید، رنج را می‌افزاید."
+DateFormat = "2006/01/02"
+YearFormat = "2006Y"
+MonthFormat = "01/02"
+farsi = "true"
+
+ArticleDecContent = " این مطلب تحت لیسانس <a href='https://creativecommons.org/licenses/by-nc-sa/3.0/' target='_blank' style='text-decoration: underline;'>CC BY-NC-SA 3.0</a> منتشر شده، لطفا منبع رو ذکر کنید."
+
+[Footer]
+  StorageLink = "https://www.Cloudflare.com"
+  StorageName = "CloudFlare"
+  ICPLink = "https://github.com/AYoonesi/AYoonesi.github.io"
+  ICPNo = "GithHub Repository"
+
+[[Socials]]
+  Name = "گیت‌هاب"
+  Icon = "github"
+  URL = "https://github.com/AYoonesi/"
+
+[[Socials]]
+  Name = "اینستاگرام"
+  Icon = "globe"
+  URL = "https://instagram.com/_alireza.yoonesi"
+
+[[Links]]
+  Name = "پاراکرو"
+  Permalink = "http://paracurve.com/"
+
+[[Links]]
+  Name = "فایننشال تایمز"
+  Permalink = "https://www.ft.com/"
+
+[[Links]]
+  Name = "اکونومیست"
+  Permalink = "https://www.economist.com/"
+
+[[Links]]
+  Name = "لایبرری جنسیس"
+  Permalink = "http://libgen.rs/"

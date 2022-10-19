@@ -1,0 +1,40 @@
+[[Main]]
+  Name = "خانه"
+  Pre = "home"
+  URL = "/fa"
+  Weight = 1
+[[Main]]
+  Name = "آرشیو"
+  Pre = "archive"
+  URL = "post"
+  Weight = 2
+[[Main]]
+  Name = "درباره"
+  Pre = "user"
+  URL = "about"
+  Weight = 3
+[[Main]]
+  Name = "تماس"
+  Pre = "heartbeat"
+  URL = "contact"
+  Weight = 4
+  [[Main]]
+  Name = "پروژه‌ها"
+  Pre = "code"
+  URL = "projects"
+  Weight = 5
+  [[Main]]
+  Name = "صفحه مدیوم من"
+  Pre = "info-circle"
+  URL = "https://medium.com/@AYoonesi"
+  Weight = 6
+  [[Main]]
+  Name = "لینکداین من"
+  Pre = "linkedin"
+  URL = "https://www.linkedin.com/in/AYoonesi/"
+  Weight = 7
+  [[Main]]
+  Name = "گیت‌هاب من"
+  Pre = "github"
+  URL = "https://github.com/AYoonesi/"
+  Weight = 8

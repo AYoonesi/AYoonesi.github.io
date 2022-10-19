@@ -1,0 +1,40 @@
+[[Main]]
+  Name = "Home"
+  Pre = "home"
+  URL = "/"
+  Weight = 1
+[[Main]]
+  Name = "Posts"
+  Pre = "archive"
+  URL = "post"
+  Weight = 2
+[[Main]]
+  Name = "About"
+  Pre = "user"
+  URL = "about/"
+  Weight = 3
+[[Main]]
+  Name = "Contact"
+  Pre = "heartbeat"
+  URL = "contact"
+  Weight = 4
+[[Main]]
+  Name = "Projects"
+  Pre = "code"
+  URL = "projects"
+  Weight = 5
+[[Main]]
+  Name = "My Medium"
+  Pre = "info-circle"
+  URL = "https://medium.com/@AYoonesi"
+  Weight = 6
+[[Main]]
+  Name = "My Linked-In"
+  Pre = "linkedin"
+  URL = "https://www.linkedin.com/in/AYoonesi/"
+  Weight = 7
+[[Main]]
+  Name = "My GitHub"
+  Pre = "github"
+  URL = "https://github.com/AYoonesi/"
+  Weight = 8
