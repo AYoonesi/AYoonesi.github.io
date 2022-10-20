@@ -20,7 +20,7 @@ series = ["Articles"]
 
 <div class="news-lead">
 What was Shakespeare thinking back then? — A word cloud <br/>
-These days, I got nothing to do but Hydrate and do some codes on personal projects, read books and articles, and of course, Hydrate again, just like in the Jarhead (2005)
+These days, I got nothing to do but Hydrate and do some codes on personal (projects)[https://yt-cloud.herokuapp.com/], read books and articles, and of course, Hydrate again, just like in the Jarhead (2005)
 </div>
 <!--more-->
 

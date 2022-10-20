@@ -18,6 +18,9 @@ type = "projects"
 - **ترجمه قالب نکست هیوگو([سورس گیت‌هاب](https://github.com/AYoonesi/persian-hugo-theme))** <br/>
     A theme translated to Persian. [Main Theme Here](https://github.com/elkan1788/hugo-theme-next)
 
-- **ابر کلمات ویدئوهای یوتیوب با فلسک و پایتون([سورس گیت‌هاب](https://github.com/AYoonesi/yt-cloud))** <br/>
+- **چیزمیزهای مربوط به مدیوم ([سورس گیت‌هاب](https://github.com/AYoonesi/medium))** <br/>
+    I put my Medium articles' files here. Mostly Jupyter notebooks. For example [this article](/post/shakespeare/) on Shakespeare. Anyways. <br/>
+
+- **ابر کلمات ویدئوهای یوتیوب با فلسک و پایتون([سورس گیت‌هاب](https://github.com/AYoonesi/yt-cloud) | [سایت](https://yt-cloud.herokuapp.com/))** <br/>
     The idea is creating wordcloud for YouTube videos, and then Medium articles as well. I copied the idea from [this guy](https://www.param.me/videocloud/) btw. I used word_cloud from PyPi, lots of thanks to [amueller](https://github.com/amueller/word_cloud) for his effort on this project. خروجی‌اش یچیزی شبیه این می‌شه:
     <img src="https://raw.githubusercontent.com/AYoonesi/yt-cloud/main/img/poverty.png" style="max-height: 300px;"/>
