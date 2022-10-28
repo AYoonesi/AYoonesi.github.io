@@ -38,3 +38,8 @@
   Pre = "github"
   URL = "https://github.com/AYoonesi/"
   Weight = 8
+[[Main]]
+  Name = "Books"
+  Pre = "book"
+  URL = "/books"
+  Weight = 9
