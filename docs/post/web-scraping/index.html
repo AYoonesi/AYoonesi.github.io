@@ -194,17 +194,16 @@ Data can also be obtained by scraping web pages. It turns out that fetching onli
 <p>The scraper and the crawler are the two components needed for web scraping. The crawler is an artificial intelligence system that searches the internet for the specific data needed by clicking on links. On the other hand, the scraper is a unique tool designed to extract data from the website. The scraper&rsquo;s architecture might vary significantly depending on the difficulty and size of the project in order to efficiently and precisely extract the data.</p>
 <h2 id=html>HTML</h2>
 <p>Pages on the web are written in HTML, in which text is (ideally) marked up into elements and their attributes:</p>
-<pre><code>&lt;html&gt;
-    &lt;head&gt;
-        &lt;title&gt;A web page&lt;/title&gt;
-    &lt;/head&gt;
-&lt;body&gt;
-    &lt;p id=&quot;author&quot;&gt;Alireza Yoonesi&lt;/p&gt;
-    &lt;p id=&quot;subject&quot;&gt;Machine Learning&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-<p>We would be able to extract data using rules like &ldquo;find the <em>p</em> element whose id is topic and return the text it contains&rdquo; in a perfect world where all web pages were semantically marked up for our convenience. HTML isn&rsquo;t often well-formed or annotated in the real world. Thus, we will require assistance in understanding it.</p>
+<div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:green;font-weight:700>html</span>&gt;
+    &lt;<span style=color:green;font-weight:700>head</span>&gt;
+        &lt;<span style=color:green;font-weight:700>title</span>&gt;A web page&lt;/<span style=color:green;font-weight:700>title</span>&gt;
+    &lt;/<span style=color:green;font-weight:700>head</span>&gt;
+    &lt;<span style=color:green;font-weight:700>body</span>&gt;
+        &lt;<span style=color:green;font-weight:700>p</span> <span style=color:#b44>id</span><span style=color:#666>=</span><span style=color:#b44>&#34;author&#34;</span>&gt;Alireza Yoonesi&lt;/<span style=color:green;font-weight:700>p</span>&gt;
+        &lt;<span style=color:green;font-weight:700>p</span> <span style=color:#b44>id</span><span style=color:#666>=</span><span style=color:#b44>&#34;subject&#34;</span>&gt;Machine Learning&lt;/<span style=color:green;font-weight:700>p</span>&gt;
+    &lt;/<span style=color:green;font-weight:700>body</span>&gt;
+&lt;/<span style=color:green;font-weight:700>html</span>&gt;
+</code></pre></div><p>We would be able to extract data using rules like &ldquo;find the <em>p</em> element whose id is topic and return the text it contains&rdquo; in a perfect world where all web pages were semantically marked up for our convenience. HTML isn&rsquo;t often well-formed or annotated in the real world. Thus, we will require assistance in understanding it.</p>
 <p>The <a href=https://www.crummy.com/software/BeautifulSoup/>Beautiful Soup</a> package, which creates a tree out of the various components on a web page and offers a straightforward interface for accessing them, will be used to extract data from HTML. We&rsquo;ll be using Beautiful Soup 4.11.1 (April 8, 2022), which is the most recent version as of this writing. We’ll also be using the Requests library, which is a much nicer way of making HTTP requests than anything that’s built into Python.</p>
 <p>Python’s built-in HTML parser is not that lenient, which means that it doesn’t always cope well with HTML that’s not perfectly formed. For that reason, we’ll also install the html5lib parser.</p>
 <hr>
@@ -299,19 +298,19 @@ For in much wisdom is much vexation, and he who increases knowledge increases so
 <nav class="site-state motion-element">
 <div class="site-state-item site-state-posts">
 <a href=/post/>
-<span class=site-state-item-count>8</span>
+<span class=site-state-item-count>9</span>
 <span class=site-state-item-name>Blogs</span>
 </a>
 </div>
 <div class="site-state-item site-state-categories">
 <a href=/categories/>
-<span class=site-state-item-count>10</span>
+<span class=site-state-item-count>11</span>
 <span class=site-state-item-name>Categories</span>
 </a>
 </div>
 <div class="site-state-item site-state-tags">
 <a href=/tags/>
-<span class=site-state-item-count>32</span>
+<span class=site-state-item-count>38</span>
 <span class=site-state-item-name>Tags</span>
 </a>
 </div>
@@ -372,6 +371,9 @@ TagCloud
 <a href=/tags/free>Free</a>
 </li>
 <li class=tagcloud-of-blogroll-item>
+<a href=/tags/politics>Politics</a>
+</li>
+<li class=tagcloud-of-blogroll-item>
 <a href=/tags/pyhton>Pyhton</a>
 </li>
 <li class=tagcloud-of-blogroll-item>
@@ -381,10 +383,7 @@ TagCloud
 <a href=/tags/science>Science</a>
 </li>
 <li class=tagcloud-of-blogroll-item>
-<a href=/tags/beatrice>Beatrice</a>
-</li>
-<li class=tagcloud-of-blogroll-item>
-<a href=/tags/book>Book</a>
+<a href=/tags/war>War</a>
 </li>
 </ul>
 </div>

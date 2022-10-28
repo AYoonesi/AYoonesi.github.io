@@ -44,17 +44,17 @@ The scraper and the crawler are the two components needed for web scraping. The 
 ## HTML
 
 Pages on the web are written in HTML, in which text is (ideally) marked up into elements and their attributes:
-
-    <html>
-        <head>
-            <title>A web page</title>
-        </head>
+```html
+<html>
+    <head>
+        <title>A web page</title>
+    </head>
     <body>
         <p id="author">Alireza Yoonesi</p>
         <p id="subject">Machine Learning</p>
     </body>
-    </html>
-
+</html>
+```
 We would be able to extract data using rules like "find the *p* element whose id is topic and return the text it contains" in a perfect world where all web pages were semantically marked up for our convenience. HTML isn't often well-formed or annotated in the real world. Thus, we will require assistance in understanding it.
 
 The [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) package, which creates a tree out of the various components on a web page and offers a straightforward interface for accessing them, will be used to extract data from HTML. We'll be using Beautiful Soup 4.11.1 (April 8, 2022), which is the most recent version as of this writing. We’ll also be using the Requests library, which is a much nicer way of making HTTP requests than anything that’s built into Python.
