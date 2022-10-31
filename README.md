@@ -33,7 +33,7 @@ L' instit (The School Teacher) portrayed by Gerard Klein (Victor Novak) is a cha
 + [X] Medium: [What Was Shakespeare Thinking Back Then?](https://medium.com/@AYoonesi/what-was-shakespeare-thinking-back-then-fc415873eb73)
 + [X] Project: [My Medium Shit](https://github.com/AYoonesi/medium)
 + [X] Post: [Iranian Kamikaze Drone — Shahed 136](https://medium.com/@AYoonesi/iranian-kamikaze-drone-shahed-136-808d9d89609)
-+ [X] Page: Books
++ [X] Page: Books -- Updated!
 
 + [ ] Series: Web Scraping
     + [X] 01 Intro

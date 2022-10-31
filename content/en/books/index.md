@@ -65,6 +65,13 @@ My rating: <a href="https://www.goodreads.com/review/show/4514443774">4 of 5 sta
 <a href="https://www.goodreads.com/review/list/97499153">View all my reviews</a>
 
 
+<a href="https://www.goodreads.com/book/show/13081787" style="float: left; padding-right: 20px"><img border="0" alt="انقلاب مجارستان: مقاومت مردمی علیه توتالیتاریسم" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1321729017l/13081787._SX98_.jpg" /></a><a href="https://www.goodreads.com/book/show/13081787">انقلاب مجارستان: مقاومت مردمی علیه توتالیتاریسم</a> by <a href="https://www.goodreads.com/author/show/12806.Hannah_Arendt">Hannah Arendt</a><br/>
+My rating: <a href="https://www.goodreads.com/review/show/5072367117">4 of 5 stars</a><br /><br />
+بالاخره فضای کشور ملتهبه<br />و آدم بهتره که مسلح به اندیشه باشه تا شعار و آرمان<br />------<br />آپدیت پس از پایان کتاب:<br />کتاب زیبایی هست، بسیار زیبا و کامل، هرچند مسئله انقلاب مجارستان رو اجمالی بررسی می‌کنه و از دیدگاه یک انتلکت و نه یک شهروند و نه حتا یک شهروند مخالف؛ چیزی که من ترجیح می‌دم درموردش بدونم<br />تحلیلی بسیار جالبی از شخصیت خروشچف ارائه داد که ناشی از شک اطراف چهره نسبتا مثبت خروشچف در ذهن من بود، واقعا لذت بردم<br />کتاب پا رو از لحاظ تئوریک فراتر از انقلاب مجارستان می‌ذاره، توتالیتاریسم روسی رو بطور اجمالی بررسی می‌کنه و نقد خودش رو بر امپریالیسم روسی نشون می‌ده<br />این کتاب تاریخ رو روایت نمی‌کنه هرچند شما می‌تونین به سادگی اسامی آشنایی مثل توخاچفسکی یا ژوکوف رو توش ببینید و با استالین و مسئله جانشینی در اتحاد شوروری آشنا بشید<br />ترجمه قابل‌قبولی بود، دوستان لطف کنن کامنت نذارن ترجمه بد بود و قص علی هذا، چون نشون می‌ده با متون هانا آرنت آشنایی ندارن، که این هم نتیجه بی‌پلاسه<br />بطورکلی، لذت بردم هرچند لفظ کتاب مناسبش نیست، بیشتر مقاله بود تا کتاب اما من کی باشم به خانوم آرنت نقدی وارد کنم؟<br />توی این روزها حتما بخونید
+<br/><br/>
+<a href="https://www.goodreads.com/review/list/97499153">View all my reviews</a>
+
+
 
 *I did not even `like` this book, just put it here so you would avoid it.* <br><a href="https://www.goodreads.com/book/show/36490332-talking-to-my-daughter-about-the-economy" style="float: left; padding-right: 20px"><img border="0" alt="Talking to My Daughter About the Economy: or, How Capitalism Works—and How It Fails" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1509179919l/36490332._SX98_.jpg" /></a><a href="https://www.goodreads.com/book/show/36490332-talking-to-my-daughter-about-the-economy">Talking to My Daughter About the Economy: or, How Capitalism Works—and How It Fails</a> by <a href="https://www.goodreads.com/author/show/405898.Yanis_Varoufakis">Yanis Varoufakis</a><br/>
 My rating: <a href="https://www.goodreads.com/review/show/4504541720">1 of 5 stars</a><br /><br />
