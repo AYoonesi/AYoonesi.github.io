@@ -98,4 +98,12 @@ A book you never forget. I may read it once again, since it rebuilt my imaginati
 <a href="https://www.goodreads.com/review/list/97499153">View all my reviews</a>
 
 
+<a href="https://www.goodreads.com/book/show/27421918" style="float: left; padding-right: 20px"><img border="0" alt="دروغگویی روی مبل" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627840513l/27421918._SX98_.jpg" /></a><a href="https://www.goodreads.com/book/show/27421918">دروغگویی روی مبل</a> by <a href="https://www.goodreads.com/author/show/909675.Irvin_D_Yalom">Irvin D. Yalom</a><br/>
+My rating: <a href="https://www.goodreads.com/review/show/5076853066">3 of 5 stars</a><br /><br />
+A book that started like a storm but continued like the author had to write more and more and more. Though it got really better at the end, it never got as well as the beginning and when finished, I wasn't sad enough. Maybe I needed it to finish so I could get rid of it and read something more valuable.<br />Added some really good ideas to my knowledge of Psychology and persuaded me to go see another therapist again, the problem is that I really don't think there is good therapists in Iran or Shiraz (where I live in the south of Iran).<br />I enjoyed it, but not so much.
+<br/><br/>
+<a href="https://www.goodreads.com/review/list/97499153">View all my reviews</a>
+
+
+
 **Check my Goodreads page [here](https://www.goodreads.com/generwinromel).**
