@@ -105,5 +105,12 @@ A book that started like a storm but continued like the author had to write more
 <a href="https://www.goodreads.com/review/list/97499153">View all my reviews</a>
 
 
+<a href="https://www.goodreads.com/book/show/33917107-on-tyranny" style="float: left; padding-right: 20px"><img border="0" alt="On Tyranny: Twenty Lessons from the Twentieth Century" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484763736l/33917107._SX98_.jpg" /></a><a href="https://www.goodreads.com/book/show/33917107-on-tyranny">On Tyranny: Twenty Lessons from the Twentieth Century</a> by <a href="https://www.goodreads.com/author/show/243930.Timothy_Snyder">Timothy Snyder</a><br/>
+<br /><br />
+کتاب متوسطی بود، حدس می‌زدم از چنین شخص مهمی اثر بهتری ببینم که کمی ناامید شدم. ارجاعات تاریخی یک سر و گردن از خود کتاب بالاتر بودن و حس می‌کنم کتاب برای فروخته شدن نوشته شده و نه تأثیرگذاری. علی‌ای‌حال کتابی بود که توی دوتا بعدازظهر مطالعه کردم و لذت بردم. شاید لذت‌بخش نباشه مطالعه آثار افرادی که باهاشون موافق نیستیم، ولی برای لذت‌بخشه. بطورکلی فصل آخر (یا پی‌گفتار) بسیار بهتر از باقی قسمت‌های کتابه. دست‌کم اون لایق وقتم بود. توی این روزهای پراسترس، بنظرم همونطور که قبلا هم گفتم، مسلح به اندیشه بودن بسیار بهتر از بنده آرمان و آرزو بودنه. با دوستمون که گفتن این کتاب کمی کلیشه‌ایه موافقم، تقریبا بجز فصل آخر همه برای عوام نوشته شده بود. بازهم موافقم که لیاقت یک بار خونده شدن رو داره.
+<br/><br/>
+<a href="https://www.goodreads.com/review/list/97499153">View all my reviews</a>
+
+
 
 **Check my Goodreads page [here](https://www.goodreads.com/generwinromel).**
