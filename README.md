@@ -34,7 +34,7 @@ L' instit (The School Teacher) portrayed by Gerard Klein (Victor Novak) is a cha
 + [X] Project: [My Medium Shit](https://github.com/AYoonesi/medium)
 + [X] Post: [Iranian Kamikaze Drone — Shahed 136](https://medium.com/@AYoonesi/iranian-kamikaze-drone-shahed-136-808d9d89609)
 + [X] Page: Books -- Updated!
-
++ [X] Post: [Calvin](https://vrgl.ir/KJfr8)
 + [ ] Series: Web Scraping
     + [X] 01 Intro
     + [ ] 02 ?
