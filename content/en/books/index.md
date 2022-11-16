@@ -34,6 +34,14 @@ Rating Description:
 <br/>
 <br/>
 
+
+<a href="https://www.goodreads.com/book/show/30796677" style="float: left; padding-right: 20px"><img border="0" alt="نامه‌ای در باب تساهل" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1467136910l/30796677._SX98_.jpg" /></a><a href="https://www.goodreads.com/book/show/30796677">نامه‌ای در باب تساهل</a> by <a href="https://www.goodreads.com/author/show/51746.John_Locke">John Locke</a><br/>
+My rating: <a href="https://www.goodreads.com/review/show/5099808834">5 of 5 stars</a><br /><br />
+فوق‌العاده است. کاش 10 سال پیش این کتاب رو خونده بودم. به همه پیشنهاد می‌کنم خصوصاً مذهبی‌ها. ترجمه هم بسیار روان هست.<br />---<br />درباره خود کتاب چیزی نمی‌گم چون نام آقای لاک و عنوان کتاب به‌اندازه کافی برای اون‌هایی که در فکر دستیابی به حکمت هست جذاب بنظر می رسه.
+<br/><br/>
+<a href="https://www.goodreads.com/review/list/97499153">View all my reviews</a>
+
+
 <a href="https://www.goodreads.com/book/show/12704670" style="float: left; padding-right: 20px"><img border="0" alt="تاریخ ایران مدرن" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528198851l/12704670._SX98_.jpg" /></a><a href="https://www.goodreads.com/book/show/12704670">تاریخ ایران مدرن</a> by <a href="https://www.goodreads.com/author/show/22208.Ervand_Abrahamian">Ervand Abrahamian</a><br/>
 My rating: <a href="https://www.goodreads.com/review/show/5047584752">4 of 5 stars</a><br /><br />
 
