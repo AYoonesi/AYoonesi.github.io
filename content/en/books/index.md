@@ -120,5 +120,12 @@ My rating: <a href="https://www.goodreads.com/review/show/5090849990">3 of 5 sta
 <a href="https://www.goodreads.com/review/list/97499153">View all my reviews</a>
 
 
+<a href="https://www.goodreads.com/book/show/60805557" style="float: left; padding-right: 20px"><img border="0" alt="В меняющемся мире" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649849126l/60805557._SX98_.jpg" /></a><a href="https://www.goodreads.com/book/show/60805557">В меняющемся мире</a> by <a href="https://www.goodreads.com/author/show/14796407._">Михаил Горбачев</a><br/>
+My rating: <a href="https://www.goodreads.com/review/show/5110235275">3 of 5 stars</a><br /><br />
+I never disliked or loathed this man. I've always admired his bravery and never said anything negative about him, but this book may change my opinion of him.<br />A Persian version with the title "دنیایی رو به دگرگونی" is accessible on Taagche; it is translated directly from Russian and I've loved it so far.<br />--<br />After finishing the book, I had the impression that I had been listening to the whining and pleas of an elderly woman who had confused vodka for tea. The book isn't as unique as I had anticipated. He seems to be grumbling about something all the time, and I never expected a man this democratic to be so communist! He appears to be making an effort to hide his guilt and present a partial truth. It wasn't good or horrible, just average. The passages about Boris Yeltsin were the book's only redeeming features. It is filled with names that, as I've already mentioned, call for some familiarity with the USSR, Europe, or even the US. Anyway, it wasn't all bad; it also helped to enlighten me a little.
+<br/><br/>
+<a href="https://www.goodreads.com/review/list/97499153">View all my reviews</a>
+
+
 
 **Check my Goodreads page [here](https://www.goodreads.com/generwinromel).**
