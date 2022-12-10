@@ -134,5 +134,11 @@ My rating: <a href="https://www.goodreads.com/review/show/5133336301">2 of 5 sta
 <a href="https://www.goodreads.com/review/list/97499153">View all my reviews</a>
 
 
+<a href="https://www.goodreads.com/book/show/61688280" style="float: left; padding-right: 20px"><img border="0" alt="بن لادن کیست؟" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1658739431l/61688280._SX98_.jpg" /></a><a href="https://www.goodreads.com/book/show/61688280">بن لادن کیست؟</a> by <a href="https://www.goodreads.com/author/show/829919.Michael_Pohly">Michael Pohly</a><br/>
+My rating: <a href="https://www.goodreads.com/review/show/5151345346">3 of 5 stars</a><br /><br />
+در واقع از کتاب لذت بردم. کتاب سعی می‌کنه ریشه‌های بنیادگرایی اسلامی و حتا شباهت‌هاش با انواع دیگه تروریسم رو بررسی کنه. ازون دسته کتابا بود که حس می‌کنی یه خبرنگار اونا رو نوشته و برام جذاب بود. کتاب به القاعده و شخص بن‌لادن محدود نمی‌شه و حتا گوشه‌ای از تاریخ افغانستان بخصوص تاریخ طالبان رو می‌گه. کتابی هست که اجمالی نوشته شده ینی انتظار جزئیات دقیق ازش نداشته باشین، ضمنا احساس می‌کنم بخشیش مربوط به ایران بوده که حذف شده و من حال ندارم این مسئله رو راستی‌آزمایی کنم ولی می‌تونه اتفاق جالب ولی قابل‌حدثی باشه. کتابی نیست که ازش لذت نبرین. پیشنهادش می‌کنم چون علاوه‌بر چیزاییکه درباره بن‌لادن گفته می‌شن، چیزای ناگفته‌ای هم توش هست (مثل ویژگی‌های شخصیتیش و چرایی اینکه انقد بالا رفت) <br />احساس می‌کنم نویسنده خیلی تلاش کرده اسلام رو مثبت نشون بده، احتمالا دلیلش وابستگی‌های نویسنده است به احزاب مختلف یا حالا هر دلیل دیگه‌ای می‌ةونه داشته باشه و من نباید همه مشکلا رو با یه دید بررسی کنم<br />شب بخیر
+<br/><br/>
+<a href="https://www.goodreads.com/review/list/97499153">View all my reviews</a>
+
 
 **Check my Goodreads page [here](https://www.goodreads.com/generwinromel).**
