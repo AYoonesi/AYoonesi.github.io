@@ -153,6 +153,11 @@ My rating: <a href="https://www.goodreads.com/review/show/5168650993">4 of 5 sta
 <br/><br/>
 <a href="https://www.goodreads.com/review/list/97499153">View all my reviews</a>
 
+<a href="https://www.goodreads.com/book/show/60879700" style="float: left; padding-right: 20px"><img border="0" alt="ترجمه الغارات" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650871988l/60879700._SX98_.jpg" /></a><a href="https://www.goodreads.com/book/show/60879700">ترجمه الغارات</a> by <a href="https://www.goodreads.com/author/show/22376420._">ابراهیم ثقفی</a><br/>
+My rating: <a href="https://www.goodreads.com/review/show/5149441197">3 of 5 stars</a><br /><br />
+کتاب جالبی بود اما انتظاراتم رو برآورده نکرد اصلا. سعی نکرده بود ذکاوت‌های سیاسی امام علی رو نشون بده،‌ ترجیح می‌دادم بجای اینکه به تطهیرش بپردازه واقعبت‌ها رو بگه چون واقعیت برای من جالبتره. مسئله بعد اینکه این کتاب توی بیان تاریخ ضعف‌هایی داره و من دو سه تا اختلاف توش دیدم: یعنی گفته بود فلانی با ۳۰۰۰ نفر حرکت کرد و بعد ۴۰۰ نفر برگشتن، جای دیگه گفته بود همون فلانی با ۶۰۰ نفر به یمن حمله کرد.<br />به دید کسی که می‌خواد حیات سیاسی شخصیت‌ها رو بررسی کنه کتاب جالبی بود برای من. علی‌ای‌حال، کتاب با مسئله خوارج و نهروان شروع می‌شه و تا شهادت امام علی ادامه داره و چند نوشته بعد از شهادت اامام علی داره که بنظر من جالب نبودن چون خیلی مسئله رو احساسی می‌کنن؛ کتابی بود که ازش نمی‌شه گفت لذت نبردم. شاید مذهبی‌ها با دید دیگه‌ای به این کتاب نگاه کنن ولی خب من دیدم متفاوته. بطورکلی پیشنهادش نمی‌کنم چون انتظارات خودم رو هم براورده نکرد و باید سمت منابع دیگه‌ای دست دراز کنم.
+<br/><br/>
+<a href="https://www.goodreads.com/review/list/97499153">View all my reviews</a>
 
 
 **Check my Goodreads page [here](https://www.goodreads.com/generwinromel).**
