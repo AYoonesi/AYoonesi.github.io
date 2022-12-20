@@ -19,27 +19,32 @@
   URL = "contact"
   Weight = 4
 [[Main]]
+  Name = "ORCID"
+  Pre = "university"
+  URL = "https://orcid.org/0000-0002-2964-4526"
+  Weight = 5
+[[Main]]
   Name = "Projects"
   Pre = "code"
   URL = "projects"
-  Weight = 5
+  Weight = 6
 [[Main]]
   Name = "My Medium"
   Pre = "info-circle"
   URL = "https://medium.com/@AYoonesi"
-  Weight = 6
+  Weight = 7
 [[Main]]
   Name = "My Linked-In"
   Pre = "linkedin"
   URL = "https://www.linkedin.com/in/AYoonesi/"
-  Weight = 7
+  Weight = 8
 [[Main]]
   Name = "My GitHub"
   Pre = "github"
   URL = "https://github.com/AYoonesi/"
-  Weight = 8
+  Weight = 9
 [[Main]]
   Name = "Books"
   Pre = "book"
   URL = "/books"
-  Weight = 9
+  Weight = 10
