@@ -19,9 +19,9 @@
   URL = "contact"
   Weight = 4
   [[Main]]
-  Name = "ORCID"
+  Name = "پژوهش"
   Pre = "university"
-  URL = "https://orcid.org/0000-0002-2964-4526"
+  URL = "https://linstit.pw/en/research"
   Weight = 5
   [[Main]]
   Name = "پروژه‌ها"
