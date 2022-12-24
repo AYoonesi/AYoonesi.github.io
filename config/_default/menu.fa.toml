@@ -21,7 +21,7 @@
   [[Main]]
   Name = "پژوهش"
   Pre = "university"
-  URL = "https://linstit.pw/en/research"
+  URL = "research"
   Weight = 5
   [[Main]]
   Name = "پروژه‌ها"
