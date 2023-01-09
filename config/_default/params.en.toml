@@ -41,3 +41,7 @@ ArticleDecContent = "This blog post article is under the <a href='https://creati
 [[Links]]
   Name = "Library Genesis"
   Permalink = "http://libgen.rs/"
+
+[[Links]]
+  Name = "LibGen+"
+  Permalink = "https://libgen.li/"
