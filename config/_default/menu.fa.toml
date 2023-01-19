@@ -29,17 +29,22 @@
   URL = "projects"
   Weight = 6
   [[Main]]
+  Name = "Google Developer Profile"
+  Pre = "terminal"
+  URL = "https://g.dev/AYoonesi"
+  Weight = 7
+  [[Main]]
   Name = "صفحه مدیوم من"
   Pre = "info-circle"
   URL = "https://medium.com/@AYoonesi"
-  Weight = 7
+  Weight = 8
   [[Main]]
   Name = "لینکداین من"
   Pre = "linkedin"
   URL = "https://www.linkedin.com/in/AYoonesi/"
-  Weight = 8
+  Weight = 9
   [[Main]]
   Name = "گیت‌هاب من"
   Pre = "github"
   URL = "https://github.com/AYoonesi/"
-  Weight = 9
+  Weight = 10
