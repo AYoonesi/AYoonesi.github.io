@@ -53,3 +53,8 @@
   Pre = "book"
   URL = "/books"
   Weight = 11
+[[Main]]
+  Name = "Podcasts"
+  Pre = "podcast"
+  URL = "/podcasts"
+  Weight = 12

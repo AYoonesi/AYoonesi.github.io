@@ -8,11 +8,12 @@ tags = [
     "Mike Munger",
     "Politics",
     "Munger",
-    "Duke University", "Russo", "United States", "Political Science"
+    "Duke University", "Russo", "United States", "Political Science", "Constitution", "EconTalk", "Podcast",
 ]
 categories = [
     "Politics",
     "Articles",
+    "Podcasts",
 ]
 series = ["Articles"]
 +++
