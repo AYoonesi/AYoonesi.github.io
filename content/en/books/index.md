@@ -11,7 +11,7 @@ type = "books"
 <div>
 <div class="site-author-image" style='max-width: 99%; border: none;'>
 
-![Books](image.png "Books")
+![Books](1.jpg "Books")
 
 </div>
 </div>
