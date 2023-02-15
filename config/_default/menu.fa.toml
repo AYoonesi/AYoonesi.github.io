@@ -30,7 +30,7 @@
   Weight = 6
   [[Main]]
   Name = "Google Developer Profile"
-  Pre = "terminal"
+  Pre = "google"
   URL = "https://g.dev/AYoonesi"
   Weight = 7
   [[Main]]
@@ -48,3 +48,13 @@
   Pre = "github"
   URL = "https://github.com/AYoonesi/"
   Weight = 10
+  [[Main]]
+  Name = "کتاب"
+  Pre = "book"
+  URL = "books"
+  Weight = 11
+  [[Main]]
+  Name = "پادکست"
+  Pre = "podcast"
+  URL = "/podcasts"
+  Weight = 12

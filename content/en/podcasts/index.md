@@ -1,6 +1,6 @@
 +++
 title = "Podcasts"
-description = "About page linstit.pw: Nothing important, I write here to stay sane."
+description = "My podcasts page: where I show what I liked listening to!"
 date = "2023-01-22"
 author = "Erwin"
 url = "podcasts"
