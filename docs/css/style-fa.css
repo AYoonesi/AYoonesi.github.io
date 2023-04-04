@@ -3,6 +3,10 @@
 @font-face{font-family:'irsans';
     src:url(../fonts/iransansweb.eot?) format("embedded-opentype"),url(../fonts/iransansweb.ttf) format("truetype"),url(../fonts/iransansweb.woff) format("woff"),url(../fonts/iransansweb.woff2) format("woff2")}
 
+@font-face{font-family:'bmitra';
+    src:url(http://localhost:5556/anki/BMitra.eot) format("embedded-opentype"),url(http://localhost:5556/anki/BMitra.ttf) format("truetype"),url(http://localhost:5556/anki/BMitra.woff) format("woff")
+}
+
 a {
     font-family: irsans-bold;
 }
