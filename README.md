@@ -39,9 +39,9 @@ L' instit (The School Teacher) portrayed by Gerard Klein (Victor Novak) is a cha
     + [X] 01 Intro
     + [ ] 02 ?
 + [X] Post: [معافیت از مجازات بهره در قانون ایران](https://vrgl.ir/V8XHi)
-+ [X] Post: [زمینه‌ها و احتمالات پیش روی بحران اوکراین](https://linstit.pw/fa/post/ukraine-russia/)
-+ [X] Page: [Podcasts](https://linstit.pw/podcasts/)
-+ [X] Pages: [fa/Books](https://linstit.pw/fa/books/) and [fa/Podcasts](https://linstit.pw/fa/podcasts/) added
++ [X] Post: [زمینه‌ها و احتمالات پیش روی بحران اوکراین](https://ayoonesi.github.io/fa/post/ukraine-russia/)
++ [X] Page: [Podcasts](https://ayoonesi.github.io/podcasts/)
++ [X] Pages: [fa/Books](https://ayoonesi.github.io/fa/books/) and [fa/Podcasts](https://ayoonesi.github.io/fa/podcasts/) added
 
 + [ ] Post: [The reform of food subsidies under the Raisi administration by *Djavad Salehi-Isfahani*](https://djavadsalehi.com/2022/05/19/the-reform-of-food-subsidies-under-the-raisi-administration/)
 + [ ] Post: Democracy in Switzerland + H. Bashirie on voting and sword and stuff
