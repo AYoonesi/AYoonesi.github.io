@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" dir="{{ $.Param "contentdir" | default "en" }}">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8;"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="robots" content="all" />
+  <meta name="robots" content="index,follow"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="{{ i18n "404PageTitle" }}"/>
+  <link rel="shortcut icon" href="/img/favicon.ico" />
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+  <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon.png" />
+  <!-- <script type="text/javascript" src="https://volunteer.cdn-go.cn/404/latest/404.js" rendertarget="public_page"></script> -->
+  <title>{{ i18n "404PageTitle" }}</title>
+  <!-- <style type="text/css"> 
+  *{margin: 0;padding: 0;}
+    ::-webkit-scrollbar {display:none}
+
+    .back_home_box {
+      box-sizing: border-box;
+      position: fixed;
+      top: 36px;
+      right: 50px;
+      z-index: 1050;
+      padding: 0;
+      width: initial;
+      background: #222;
+      font-size: 14px;
+      opacity: 0.6;
+      color: #fff;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:6px 12px;
+      margin-bottom:0;
+      text-align:center;
+      white-space:nowrap;
+      vertical-align:middle;
+      -ms-touch-action:manipulation;
+      touch-action:manipulation;
+      cursor:pointer;
+      -webkit-user-select:none;
+      -moz-user-select:none;
+      -ms-user-select:none;
+      user-select:none;
+      background-image:none;
+      border:1px solid transparent;
+      border-radius:4px
+    }
+    .btn-primary{
+      color:#fff;
+      background-color:#337ab7;
+      border-color:#2e6da4;
+    }
+    .btn_blue {
+      padding: 10px;
+      text-align: center;
+      border-radius: 3px;
+      background: #7caced;
+      color: #fff;
+      letter-spacing: 3px;
+      border: 0;
+      font-size: 18px;
+      text-decoration-line: none;
+    }
+
+    #public_page {
+      margin:0px;
+      padding:0px;
+      width: 100%;
+      height: 100%;
+      overflow-y: hidden;
+      overflow-x: hidden; 
+      max-width: 100vw;
+    }
+  </style>-->
+  <style>
+        @import 'https://fonts.googleapis.com/css?family=Inconsolata';
+
+    html {
+      min-height: 100%;
+    }
+
+    body {
+      box-sizing: border-box;
+      height: 100%;
+      background-color: #000000;
+      background-image: radial-gradient(#11581E, #041607), url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: 'Inconsolata', Helvetica, sans-serif;
+      font-size: 1.5rem;
+      color: rgba(128, 255, 128, 0.8);
+      text-shadow:
+          0 0 1ex rgba(51, 255, 51, 1),
+          0 0 2px rgba(255, 255, 255, 0.8);
+    }
+
+    .noise {
+      pointer-events: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -1;
+      opacity: .02;
+    }
+
+    .overlay {
+      pointer-events: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background:
+          repeating-linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 0,
+          rgba(0, 0, 0, 0.3) 50%,
+          rgba(0, 0, 0, 0) 100%);
+      background-size: auto 4px;
+      z-index: 1;
+    }
+
+    .overlay::before {
+      content: "";
+      pointer-events: none;
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(
+          0deg,
+          transparent 0%,
+          rgba(32, 128, 32, 0.2) 2%,
+          rgba(32, 128, 32, 0.8) 3%,
+          rgba(32, 128, 32, 0.2) 3%,
+          transparent 100%);
+      background-repeat: no-repeat;
+      animation: scan 7.5s linear 0s infinite;
+    }
+
+    @keyframes scan {
+      0%        { background-position: 0 -100vh; }
+      35%, 100% { background-position: 0 100vh; }
+    }
+
+    .terminal {
+      box-sizing: inherit;
+      position: absolute;
+      height: 100%;
+      width: 1000px;
+      max-width: 100%;
+      padding: 4rem;
+      text-transform: uppercase;
+    }
+
+    .output {
+      color: rgba(128, 255, 128, 0.8);
+      text-shadow:
+          0 0 1px rgba(51, 255, 51, 0.4),
+          0 0 2px rgba(255, 255, 255, 0.8);
+    }
+
+    .output::before {
+      content: "> ";
+    }
+
+    /*
+    .input {
+      color: rgba(192, 255, 192, 0.8);
+      text-shadow:
+          0 0 1px rgba(51, 255, 51, 0.4),
+          0 0 2px rgba(255, 255, 255, 0.8);
+    }
+
+    .input::before {
+      content: "$ ";
+    }
+    */
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    a::before {
+      content: "[";
+    }
+
+    a::after {
+      content: "]";
+    }
+
+    .errorcode {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- <div id="public_page_"></div>
+  <div class="back_home_box">
+    <a href="{{ "/" | relLangURL }}" class="btn btn-primary btn_blue">返回主页</a>
+  </div> -->
+
+  <div class="noise"></div>
+  <div class="overlay"></div>
+  <div class="terminal">
+    <h1>Error <span class="errorcode">404</span></h1>
+    <p class="output">The page you are looking for might have been removed, had its name changed or is temporarily unavailable.</p>
+    <p class="output">Please try to <a href="/">go back</a> or <a href="javascript:history.back()">return to the homepage</a>.</p>
+    <p class="output">Good luck.</p>
+  </div>
+
+</body>

@@ -1,0 +1,72 @@
+[StatsCats]
+  other = "<div style='font-size: 20px; font-weight: bold;'> کلا <span class='span-stats-tip'>{{ len .Data.Terms }} </span> تا دسته‌بندی داریم  </div>"
+[StatsTags]
+  other = "<div style='font-size: 20px; font-weight: bold;'> کلا <span class='span-stats-tip'>{{ len .Data.Terms }} </spa> تا تگ داریم  </div>"
+[StatsBlogs]
+  other = "<div style='font-size: 20px; font-weight: bold;'>خب؛ ما <span style='font-weight: bold; font-size: 20px;' class='span-stats-tip'>{{ .Count }} </span> تا پست داریم که همه‌اش اینجاست: </div>"
+[Blog]
+  other = "پست"
+[Category]
+  other = "دسته‌بندی"
+[Archive]
+  other = "آرشیو"
+[Tag]
+  other = "تگ"
+[ToC]
+  other = "فهرست"
+[RSS]
+  other = "آر‌اس‌اس"
+[SiteInfo]
+  other = "اطلاعات سایت"
+[Link]
+  other = "لینک‌ها"
+[TagCloud]
+  other = "ابرک تگ‌ها"
+[Time]
+  other = "تاریخ"
+[View]
+  other = "خواندن در"
+[ReadMore]
+  other = "ادامه"
+[Word]
+  other = "تعداد کلمات"
+[WordCount]
+  other = "{{ .WordCount }}"
+[ReadingTime]
+  other = "{{ .ReadingTime }} دقیقه"
+[Colon]
+  other = ":"
+[Visit]
+  other = "دیده شده"
+[Search]
+  other = "جستجو"
+[404PageTitle]
+  other = "ارور ۴۰۴ - این صفحه پیدا نشد"
+[BackHomeTip]
+  other = "برگشتن به صفحه اصلی"
+[SearchPhr]
+  other = "تایپ کنید"
+[ScanQQCode]
+  other = "!اسکن کنید"
+[ArticleTitle]
+  other = "عنوان"
+[ArticleAuthor]
+  other = "نویسنده"
+[ArticleLink]
+  other = "آدرس"
+[ArticleDeclaration]
+  other = "عنوان"
+[ArticleDecContent]
+  other = "تحت لایسنس <a href='https://creativecommons.org/licenses/by-nc-sa/3.0/' target='_blank' style='text-decoration: underline;'>CC BY-NC-SA 3.0</a> منتشر شده، لطفا نویسنده رو ذکر کنید."
+[RewardTips]
+  other = "If it can help you, you can give tips for blogger that how much you want. ^_^"
+[RewardBtnText]
+  other = "Reward"
+[RewardWxPay]
+  other = "Wechat Pay"
+[RewardAliPay]
+  other = "Ali Pay"
+[CommentPh]
+  other = "اگر چیزی تو ذهنتونه اینجا بنویسین، ایمیل فراموش نشه فقط"
+[UnComment]
+  other ="با این بروزر شاید نشه کامنت داد، با کروم تست کنین"
