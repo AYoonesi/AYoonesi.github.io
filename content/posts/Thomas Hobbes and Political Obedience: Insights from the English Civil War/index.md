@@ -1,9 +1,9 @@
 ---
 title: "Thomas Hobbes and Political Obedience: Insights from the English Civil War"
-date: 2023-08-31T15:30:03+00:00
+date: 2023-07-07T15:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["politics", "page", "books", "private law"]
+tags: ["politics", "page", "books", "private law", "Thomas Hobbes", "political obedience", "English civil war", "Leviathan", "social contract theory", "imperfect rulers", "chaos prevention", "violence", "revolution", "governmental authority"]
 author: "Alireza Yoonesi"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
+description: "Dive into the philosophical insights of Thomas Hobbes, a prominent 17th-century English philosopher, as he explores the complexities of political obedience. Influenced by his experiences during the brutal English civil war, Hobbes emphasizes the importance of submitting to imperfect rulers to prevent chaos and violence. In his renowned work Leviathan, Hobbes merges the social contract theory with a defense of unwavering obedience, while also cautioning against the dangers of frequent revolutions. Discover how Hobbes's perspectives continue to shape our understanding of governmental authority today"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
