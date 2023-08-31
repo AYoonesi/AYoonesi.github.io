@@ -40,6 +40,7 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
+## Intro 
 
 I first got to know Dr. Munger on YouTube([Why Major in Political Science?](https://www.youtube.com/watch?v=xfwUott_xxk)) when I wanted to decide between going to Law school & studying Political Science back in 2021. Though I was persuaded by the guy to do so and he influenced me for the rest of my life with his Germany stories, and his BMW car, I decided to go to Law school for better job status. Anyways, his ideas on constitutions have always been fascinating. I suggest you check it out. He's a funny guy as well. Source to the podcast: [EconTalk!](https://www.econtalk.org/michael-munger-on-constitutions/). Dr. Munger works at Duke University. [Link to his page](https://scholars.duke.edu/person/michael.munger) on Duke's portal. He's got lots of courses on Duke's YouTube page, google it ad you won't regret it.
 
@@ -56,7 +57,7 @@ I first got to know Dr. Munger on YouTube([Why Major in Political Science?](http
 <br/>
 
 
-Or if you live in Iran and therefore have limited access to the Internet, [this link](/post/michael-munger-on-constitutions/mungerconstitutions.mp3) containing the mp3 file could help. This player might even work as well:
+Or if you live in Iran and therefore have limited access to the Internet, [this link](mungerconstitutions.mp3) containing the mp3 file could help. This player might even work as well:
 
 <iframe height="200" style="width: 100%; border: none;" src="https://player.simplecast.com/c6459c10-928a-4152-97dd-41031ad1fa47?dark=true">iFrame ain't working?</iframe>
 
