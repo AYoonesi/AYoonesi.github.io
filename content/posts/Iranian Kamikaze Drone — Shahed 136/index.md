@@ -47,9 +47,19 @@ While the Kalibr 3M14, a Russian competitor to the American-made Tomahawk missil
 ## How Is It Powered?
 Well, the engine is a four-cylinder Mado MD550 engine, an inferior copy of the German Limbach L550e engine using Chinese parts and assemblies. A similar engine was spotted in Syria in 2014 before. I discovered a Chinese supplier selling each of these engines online for about $17,000. An extremely slow and noisy 50-horsepower civilian engine. Watch the video here to see how noisy it can be:
 
-{{< youtube AVF49uKngUo >}}
+{{<youtube nmCV2nfzaVE>}}
+
 
 It makes me think of the German Stuka Siren during World War II. Stuka was originally built this way to disrupt the mindset of the ground forces, but on a modern battlefield, this kind of noise can undermine the effectiveness of the operation.
+
+More info on the engine can be found [here](http://www.uavstar.com/Products/Engine/Engine_e.htm#:~:text=crankshafts%2C%20Exhaust%20stacks-,MD550,-Four%20cylinder%2C%20horizontally), and [here](https://www.militarydrones.org.cn/md-550-engine-price-p00583p1.html). You could aquire these engines from Aliexpress. I've seen lots of tweets on this specific engine:
+
+{{< twitter_simple 1570442881848209413 >}}
+
+{{< twitter_simple 1570438897926029312 >}}
+
+This video shows some info on it, at least you'll know how it looks like:
+{{<youtube LyoW39UIceE >}}
 
 ## Navigation
 Because it is not a US-friendly weapon, it is unlikely to use GPS and must instead rely on GLONASS if operated by Russians, which increases its capabilities but not significantly. It could also be using Anti-radiation Seeker for navigation, as Iran appears to use this type of technology due to its ease of use and low cost.

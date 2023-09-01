@@ -18,7 +18,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Alireza Yoonesi
   description: "ExampleSite description"
-  keywords: [Blog, Portfolio, Alireza Yoonesi, Python, Programming, Politics, Law, Private Law]
+  keywords: [Blog, Portfolio, Alireza Yoonesi, Python, Programming, Politics, Law, Private Law, War]
   author: Alireza Yoonesi
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -64,7 +64,7 @@ params:
     imageUrl: "images/me.jpg"
     imageWidth: 220
     imageHeight: 220
-    imageTitle: my image
+    imageTitle: Alireza Yoonesi
     buttons:
       - name: Blog
         url: posts
