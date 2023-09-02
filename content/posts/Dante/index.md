@@ -5,7 +5,7 @@ date: 2022-04-29T11:30:03+00:00
 # aliases: ["/first"]
 tags: ["Dante",
     "Devine Comedy",
-    "Book",
+    "books",
     "Beatrice",
     "Culture",]
 author: "Alireza Yoonesi"
