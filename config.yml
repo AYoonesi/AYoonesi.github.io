@@ -1,7 +1,9 @@
-baseURL: "https://AYoonesi.ir/"
+baseURL: "https://en.AYoonesi.ir/"
 title: Alireza Yoonesi
 paginate: 5
 theme: PaperMod
+
+publishDir: docs
 
 enableRobotsTXT: true
 buildDrafts: false

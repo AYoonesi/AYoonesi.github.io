@@ -54,9 +54,9 @@ It makes me think of the German Stuka Siren during World War II. Stuka was origi
 
 More info on the engine can be found [here](http://www.uavstar.com/Products/Engine/Engine_e.htm#:~:text=crankshafts%2C%20Exhaust%20stacks-,MD550,-Four%20cylinder%2C%20horizontally), and [here](https://www.militarydrones.org.cn/md-550-engine-price-p00583p1.html). You could aquire these engines from Aliexpress. I've seen lots of tweets on this specific engine:
 
-{{< twitter_simple 1570442881848209413 >}}
+{{<twitter_simple IranDefense 1570442881848209413 >}}
 
-{{< twitter_simple 1570438897926029312 >}}
+{{<twitter_simple UAWeapons 1570438897926029312 >}}
 
 This video shows some info on it, at least you'll know how it looks like:
 {{<youtube LyoW39UIceE >}}
