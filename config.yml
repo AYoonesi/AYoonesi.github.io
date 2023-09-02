@@ -74,6 +74,8 @@ params:
         url: tags
       - name: Books
         url: tags/books
+      - name: Certificates
+        url: https://en.ayoonesi.ir/cert/
 
   # home-info mode
   homeInfoParams:
@@ -132,9 +134,9 @@ menu:
       name: search
       url: /search/
       weight: 300
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: certs
+      name: certs
+      url: https://en.ayoonesi.ir/cert/
       weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
