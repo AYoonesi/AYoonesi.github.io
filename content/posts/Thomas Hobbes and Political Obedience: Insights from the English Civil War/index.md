@@ -25,8 +25,8 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "https://en.ayoonesi.ir/post/thomas-hobbes-and-political-obedience-insights-from-the-english-civil-war/william-cavendish-painting-thomas-hobbes.webp" # image path/url
-    alt: "<alt text>" # alt text
+    image: "william-cavendish-painting-thomas-hobbes.jpg" # image path/url
+    alt: "william cavendish painting thomas hobbes" # alt text 
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
