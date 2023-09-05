@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>War on Alireza Yoonesi</title>
+    <title>war on Alireza Yoonesi</title>
     <link>https://en.AYoonesi.ir/tags/war/</link>
-    <description>Recent content in War on Alireza Yoonesi</description>
+    <description>Recent content in war on Alireza Yoonesi</description>
     <image>
       <title>Alireza Yoonesi</title>
       <url>https://en.AYoonesi.ir/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Oct 2022 11:30:03 +0000</lastBuildDate><atom:link href="https://en.AYoonesi.ir/tags/war/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Sep 2023 02:34:17 +0330</lastBuildDate><atom:link href="https://en.AYoonesi.ir/tags/war/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://en.AYoonesi.ir/about/</link>
+      <pubDate>Tue, 05 Sep 2023 02:34:17 +0330</pubDate>
+      
+      <guid>https://en.AYoonesi.ir/about/</guid>
+      <description>Exploring the Nexus of Law and Code: Join me in unraveling the intricacies of Private Law and the boundless possibilities of technology at the intersection of jurisprudence and innovation.</description>
+    </item>
+    
     <item>
       <title>Iranian Kamikaze Drone — Shahed 136</title>
       <link>https://en.AYoonesi.ir/posts/iranian-kamikaze-drone-shahed-136/</link>

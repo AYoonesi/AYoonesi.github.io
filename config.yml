@@ -74,8 +74,6 @@ params:
         url: tags
       - name: Books
         url: tags/books
-      - name: Certificates
-        url: https://en.ayoonesi.ir/cert/
 
   # home-info mode
   homeInfoParams:
@@ -91,6 +89,8 @@ params:
       url: "https://github.com/AYoonesi"
     - name: linkedin
       url: "https://www.linkedin.com/in/AYoonesi/"
+    - name: kaggle
+      url: https://www.kaggle.com/ayoonesi
 
   analytics:
     google:
@@ -122,22 +122,31 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 10
+    - identifier: contact
+      name: contact
+      url: /contact/
+      weight: 10
     - identifier: archives
       name: archives
       url: /archives/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
     - identifier: search
       name: search
       url: /search/
-      weight: 300
+      weight: 20
+    - identifier: google-dev
+      name: google dev
+      url: https://g.dev/AYoonesi
+      weight: 30
     - identifier: certs
       name: certs
       url: https://en.ayoonesi.ir/cert/
       weight: 40
+    
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
