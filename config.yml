@@ -10,7 +10,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: G-FDE1N08SCD
 
 minify:
   disableXML: true
@@ -19,8 +19,8 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Alireza Yoonesi
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, Alireza Yoonesi, Python, Programming, Politics, Law, Private Law, War]
+  description: "Discover a versatile world of expertise! I'm a Researcher, Developer, Farmer, and part-time Writer, fluent in English and Persian. Delve into insights on Private Law, Aviation, Economics, Politics & Intl’ Relations, History, AI, and Finance in my captivating content. Join me in exploring the intersection of knowledge and curiosity."
+  keywords: [Researcher, Developer, Farmer, Part-time Writer, English and Persian Content, Private Law, Aviation, Economics, Politics & International Relations, History, AI (Artificial Intelligence), Finance, Expertise, Multilingual Blogger, Curiosity, Knowledge Intersection, Versatile Skills, Blogging Insights, Diverse Interests, Captivating Content]
   author: Alireza Yoonesi
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -60,7 +60,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: Alireza Yoonesi
     subtitle: "Researcher, Developer, Farmer, and part-time Writer | In English & Persian | Interested in Private Law, Aviation, Economics, Politics & Intl' Rel., History, AI, and Finance"
     imageUrl: "images/me.jpg"
@@ -77,8 +77,14 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog, where I write things
+    # Title: "Hi there \U0001F44B"
+    Title: Alireza Yoonesi
+    # Content: Welcome to my blog, where I write things
+    Content: Researcher, Developer, Farmer, and part-time Writer | In English & Persian | Interested in Private Law, Aviation, Economics, Politics & Intl’ Rel., History, AI, and Finance
+    imageUrl: "images/me.jpg"
+    imageWidth: 150
+    imageHeight: 150
+    imageTitle: Alireza Yoonesi
 
   socialIcons:
     - name: twitter
