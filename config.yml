@@ -48,14 +48,14 @@ params:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "images/favicon.ico"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon16x16: "images/favicon-16x16.png"
+    favicon32x32: "images/favicon-32x32.png"
+    apple_touch_icon: "images/apple-touch-icon.png"
+    # safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
+    icon: images/apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
@@ -63,7 +63,7 @@ params:
     enabled: false # needs to be explicitly set
     title: Alireza Yoonesi
     subtitle: "Researcher, Developer, Farmer, and part-time Writer | In English & Persian | Interested in Private Law, Aviation, Economics, Politics & Intl' Rel., History, AI, and Finance"
-    imageUrl: "images/me.jpg"
+    imageUrl: "images/me250x250.webp"
     imageWidth: 220
     imageHeight: 220
     imageTitle: Alireza Yoonesi
@@ -81,7 +81,7 @@ params:
     Title: Alireza Yoonesi
     # Content: Welcome to my blog, where I write things
     Content: Researcher, Developer, Farmer, and part-time Writer | In English & Persian | Interested in Private Law, Aviation, Economics, Politics & Intl’ Rel., History, AI, and Finance
-    imageUrl: "images/me.jpg"
+    imageUrl: "images/me250x250.webp"
     imageWidth: 150
     imageHeight: 150
     imageTitle: Alireza Yoonesi
@@ -100,7 +100,7 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "G-FDE1N08SCD"
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
