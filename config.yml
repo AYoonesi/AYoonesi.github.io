@@ -56,7 +56,7 @@ params:
   label:
     text: "Home"
     icon: images/apple-touch-icon.png
-    iconHeight: 35
+    iconHeight: 30
 
   # profile-mode
   profileMode:
