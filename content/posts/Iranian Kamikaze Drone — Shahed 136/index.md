@@ -29,9 +29,9 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
+    image: "640px-Remains_of_Russian_missiles_and_drones_in_Kyiv_(2023-05-12)_05.jpg" # image path/url
+    alt: "Remains of Shahed 136 and its engine in Kyiv Scientific Research Institute of Forensic Expertise" # alt text
+    caption: "Remains of Shahed 136 and its engine in Kyiv Scientific Research Institute of Forensic Expertise" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 editPost:
