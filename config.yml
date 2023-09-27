@@ -148,6 +148,10 @@ menu:
       name: google dev
       url: https://g.dev/AYoonesi
       weight: 30
+    - identifier: google-cloud
+      name: google cloud skills
+      url: https://www.cloudskillsboost.google/public_profiles/4fb8b8d9-6cd6-4f30-a28f-a8b9cd660127
+      weight: 30
     - identifier: certs
       name: certs
       url: https://en.ayoonesi.ir/cert/

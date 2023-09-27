@@ -12,7 +12,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "In his seminal work, “Sex and Repression in Savage Society,” Bronisław Malinowski delves deep into the intricate nuances of human sexuality within indigenous cultures, unearthing a treasure trove of enlightening observations and thought-provoking analyses. Employing his astute anthropological lens, Malinowski transports readers into captivating narratives of tribal societies, skillfully interweaving empirical evidence with lyrical descriptions of exotic rituals and customs"
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://www.linkedin.com/pulse/sex-repression-savage-society-bronis%C5%82aw-malinowski-alireza-yoonesi"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
@@ -51,3 +51,7 @@ Beyond its scholarly prowess, “Sex and Repression in Savage Society” stands 
 In conclusion, Malinowski’s “Sex and Repression in Savage Society” is an exquisite work of ethnographic exploration, transcending conventional boundaries to eloquently unravel the mysteries and tensions of human sexuality within tribal communities. With its accuracy, empathy, and literary finesse, this seminal piece of scholarship remains a lasting testament to the depth and breadth of human experience, igniting intellectual fervor and inspiring future generations of anthropologists and readers alike.
 
 ![](1692311771240.jpg)
+
+---
+
+**Originally published on [LinkedIn](https://linkedin.com/in/AYoonesi)**: This article was originally published on LinkedIn on [August 18, 2023](https://www.linkedin.com/pulse/sex-repression-savage-society-bronis%C5%82aw-malinowski-alireza-yoonesi). In the article, I discuss my ideas on Bronisław Malinowski's nominal work, *“Sex and Repression in Savage Society.”* I encourage you to read the original article for more information and insights, and to connect with me on LinkedIn to continue the conversation.
