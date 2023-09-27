@@ -1,7 +1,7 @@
 baseURL: "https://en.AYoonesi.ir/"
 title: Alireza Yoonesi
 paginate: 5
-theme: PaperMod
+theme: papermodd
 
 publishDir: docs
 
