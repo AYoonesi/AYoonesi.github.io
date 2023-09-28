@@ -3,7 +3,7 @@ title: "Deciphering “Permanent Record”: A Surface Level Critique"
 date: 2023-09-15T19:06:14-04:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["books", "critique", "snowden", "booksreview", "Edward Snowden", "Permanent Record", "memoir", "intelligence world", "Persian translation", "Harvard alumnus", "literary critique", "book review", "intellectual exploration", "literary analysis"]
+tags: ["books", "critique", "snowden", "booksreview", "Edward Snowden", "Permanent Record", "memoir", "intelligence world", "Persian translation", "literary critique", "book review", "intellectual exploration", "literary analysis"]
 author: "Alireza Yoonesi"
 # author: ["Me", "You"] # multiple authors
 showToc: true
