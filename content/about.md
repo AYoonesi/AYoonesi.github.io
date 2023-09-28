@@ -38,7 +38,7 @@ Greetings! I'm [Alireza Yoonesi](https://www.linkedin.com/in/ayoonesi/), a law s
 
 ## A Multifaceted Journey
 
-My journey has been nothing short of diverse. While my days at Duke Law School nurtured my fascination for the intricacies of Private Law, my insatiable curiosity led me down a myriad of paths. Today, I proudly wear several hats:
+My journey has been nothing short of diverse. While my days at law school nurtured my fascination for the intricacies of Private Law, my insatiable curiosity led me down a myriad of paths. Today, I proudly wear several hats:
 
 - **The Jurist**: As a law student, I delved into the depths of jurisprudence, learning the art of legal reasoning, the balance of justice, and the nuances of Private Law. My passion for #law and #privatelaw runs deep, and I find great joy in exploring the intersection of law and technology.
 
