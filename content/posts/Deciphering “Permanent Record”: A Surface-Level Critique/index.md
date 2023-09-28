@@ -3,7 +3,7 @@ title: "Deciphering “Permanent Record”: A Surface Level Critique"
 date: 2023-09-15T19:06:14-04:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["books", "critique", "snowden", "booksreview", "memoir", "edwardsnowden"]
+tags: ["books", "critique", "snowden", "booksreview", "Edward Snowden", "Permanent Record", "memoir", "intelligence world", "Persian translation", "Harvard alumnus", "literary critique", "book review", "intellectual exploration", "literary analysis"]
 author: "Alireza Yoonesi"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "During my recent holiday, I decided to delve into the pages of Edward Snowden's memoir, Permanent Record, with the expectation of a thought-provoking and intellectually stimulating experience. As a Harvard alumnus, I hold a high standard for the quality of literature I engage with, and this book presented both surprises and disappointments."
+description: "During my recent holiday, I decided to delve into the pages of Edward Snowden's memoir, Permanent Record, with the expectation of a thought-provoking and intellectually stimulating experience. I hold a high standard for the quality of literature I engage with, and this book presented both surprises and disappointments."
 canonicalURL: "https://www.linkedin.com/pulse/deciphering-permanent-record-surface-level-critique-alireza-yoonesi"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -37,7 +37,7 @@ editPost:
 ---
 
 
-During my recent holiday, I decided to delve into the pages of Edward Snowden's memoir, "Permanent Record," with the expectation of a thought-provoking and intellectually stimulating experience. As a Harvard alumnus, I hold a high standard for the quality of literature I engage with, and this book presented both surprises and disappointments.
+During my recent holiday, I decided to delve into the pages of Edward Snowden's memoir, "Permanent Record," with the expectation of a thought-provoking and intellectually stimulating experience. I hold a high standard for the quality of literature I engage with, and this book presented both surprises and disappointments.
 
 In terms of complexity, "Permanent Record" offered a more approachable reading experience than I had initially anticipated. Snowden, despite his background in the intricate world of intelligence, managed to convey his story and ideas in a manner that was both comprehensible and coherent. This accessibility was a pleasant surprise, as it allowed me to delve into the subject matter without feeling overwhelmed.
 
@@ -45,7 +45,7 @@ My journey through "Permanent Record" was facilitated by the Persian translation
 
 However, despite the book's ease of comprehension and the quality of the translation, I must admit that I found many aspects of Snowden's discussions to be uninspiring and unconvincing. His attempts to dissect the complexities of the intelligence world often left me bored and wanting for more depth. Furthermore, his characterization of certain individuals and entities was, at times, abusive and detracted from the book's potential for substantive discourse.
 
-In conclusion, "Permanent Record" by Edward Snowden offered an approachable reading experience, made even more accessible through a commendable Persian translation. However, the book's content left much to be desired. While it provided insights into the intelligence community, it often failed to captivate my intellectual curiosity and, in some instances, devolved into a tone that was less than constructive. As a Harvard alumnus, I hold the works I engage with to a high standard, and I found Snowden's memoir to be a mix of promise and disappointment, ultimately leaving me craving more substance and depth in its exploration of critical issues.
+In conclusion, "Permanent Record" by Edward Snowden offered an approachable reading experience, made even more accessible through a commendable Persian translation. However, the book's content left much to be desired. While it provided insights into the intelligence community, it often failed to captivate my intellectual curiosity and, in some instances, devolved into a tone that was less than constructive. I hold the works I engage with to a high standard, and I found Snowden's memoir to be a mix of promise and disappointment, ultimately leaving me craving more substance and depth in its exploration of critical issues.
 
 ---
 

@@ -3,7 +3,7 @@ title: "Unveiling the Shadows of Power: Mohammad Mosaddeq and the 1953 Coup in I
 date: 2023-09-05T18:50:48-04:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["books", "coup", "politics", "history", "Gasiorowski", "Mosaddeq", "bookreview"]
+tags: ["books", "coup", "politics", "history", "Gasiorowski", "Mosaddeq", "bookreview", "Mark J. Gasiorowski", "Mohammad Mosaddeq", "1953 coup", "Iranian history", "historical scholarship", "Cold War", "Operation Ajax", "geopolitics", "oil diplomacy", "legacy of the coup"]
 author: "Alireza Yoonesi"
 # author: ["Me", "You"] # multiple authors
 showToc: true

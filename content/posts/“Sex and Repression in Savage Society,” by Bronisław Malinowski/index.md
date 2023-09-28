@@ -3,7 +3,7 @@ title: '“Sex and Repression in Savage Society,” by Bronisław Malinowski'
 date: 2023-08-18T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["books", "culture", "sociology", "anthropology", "review", "sex", "Bronisław Malinowski"]
+tags: ["books", "culture", "Bronisław Malinowski", "anthropology", "human sexuality", "cultural studies", "ethnography", "social taboos", "comparative analysis", "societal norms", "repression", "tribal communities"]
 author: "Alireza Yoonesi"
 # author: ["Me", "You"] # multiple authors
 showToc: true

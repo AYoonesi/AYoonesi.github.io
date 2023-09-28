@@ -3,7 +3,7 @@ title: "Coup Chronicles: Unpacking the 1953 US Iranian Drama Through Abrahamian'
 date: 2023-09-22T19:30:01-04:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Books", "BooksReview", "InternationalRelations", "Oil", "NIOC", "coup", "politics", "history", "Gasiorowski", "Mosaddeq", "Abrahamian"]
+tags: ["Books", "BooksReview", "InternationalRelations", "Oil", "NIOC", "coup", "politics", "history", "Gasiorowski", "Mosaddeq", "Ervand Abrahamian", "The Coup", "1953 coup", "U.S.-Iranian relations", "historical narratives", "British involvement", "international diplomacy", "critical lens", "global perspective", "covert interventions"]
 author: "Alireza Yoonesi"
 # author: ["Me", "You"] # multiple authors
 showToc: true
