@@ -160,6 +160,10 @@ menu:
       name: certs
       url: https://en.ayoonesi.ir/cert/
       weight: 40
+    - identifier: persian
+      name: persian version
+      url: https://fa.ayoonesi.ir/
+      weight: 50
     
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
