@@ -161,7 +161,7 @@ menu:
       url: https://en.ayoonesi.ir/cert/
       weight: 40
     - identifier: persian
-      name: persian version
+      name: persian
       url: https://fa.ayoonesi.ir/
       weight: 50
     
