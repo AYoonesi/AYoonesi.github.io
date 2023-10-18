@@ -41,6 +41,8 @@ editPost:
 
 > Allow me to present an appraisal of the 2017 report on the financialization of housing, authored by the Special Rapporteur on the right to adequate housing, Leilani Farha, under the auspices of the United Nations Human Rights Council. It is worth noting that this discourse constitutes a scholarly endeavor, reflective of a student's intellectual exploration. The original report can be found [here](https://www.ohchr.org/en/statements/2017/03/statement-special-rapporteur-right-adequate-housing-leilani-farha-during?LangID=E&NewsID=21264).
 
+> The pdf version of the essay is also available [here](Metamorphosis of Ideals The Housing Conundrum in a Financial World.pdf).
+
 ---
 
 In contemplation of my convictions regarding the optimal governance of our world, which lean towards the minimization of the influence of socialist principles, I conscientiously perused this essay, striving to maintain an unprejudiced perspective, untainted by my personal inclinations. However, upon the essay's culmination, I found myself incontrovertibly persuaded that my scholastic pursuit in the realm of jurisprudence must diverge from the domain of humanitarian rights law. In any event, allow me to proffer my discerning observations on this subject matter:
