@@ -41,7 +41,7 @@ editPost:
 
 > Allow me to present an appraisal of the 2017 report on the financialization of housing, authored by the Special Rapporteur on the right to adequate housing, Leilani Farha, under the auspices of the United Nations Human Rights Council. It is worth noting that this discourse constitutes a scholarly endeavor, reflective of a student's intellectual exploration. The original report can be found [here](https://www.ohchr.org/en/statements/2017/03/statement-special-rapporteur-right-adequate-housing-leilani-farha-during?LangID=E&NewsID=21264).
 
-> The pdf version of the essay is also available [here](Metamorphosis of Ideals The Housing Conundrum in a Financial World.pdf).
+> The pdf version of the essay is also available [here](metamorphosis-of-ideals-the-housing-conundrum-in-a-financial-world.pdf).
 
 ---
 
