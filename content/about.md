@@ -10,7 +10,7 @@ draft: false
 hidemeta: true
 comments: false
 description: "Exploring the Nexus of Law and Code: Join me in unraveling the intricacies of Private Law and the boundless possibilities of technology at the intersection of jurisprudence and innovation."
-canonicalURL: "https://canonical.url/to/page"
+# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

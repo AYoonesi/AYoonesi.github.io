@@ -11,7 +11,7 @@ draft: false
 hidemeta: true
 comments: false
 description: "Have a question, suggestion, or just want to chat about law, code, or anything in between? I'd love to hear from you! Feel free to drop me a message using the form below, and I'll get back to you as soon as possible."
-canonicalURL: "https://canonical.url/to/page"
+# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
@@ -38,3 +38,5 @@ editPost:
 **Let's Connect**: Feel free to reach out with questions, collaboration ideas, or simply to say hello. I'm just a message away!
 
 **Your Thoughts Matter**: Your feedback and inquiries are invaluable. Drop me a line, and let's start a meaningful conversation.
+
+

@@ -1,0 +1,115 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title">
+      {{ .Title }}
+      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+      {{ .Description }}
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+      {{- partial "post_meta.html" . -}}
+      {{- partial "translation_list.html" . -}}
+      {{- partial "edit_post.html" . -}}
+      {{- partial "post_canonical.html" . -}}
+    </div>
+    {{- end }}
+  </header>
+  {{- $isHidden := .Params.cover.hidden | default site.Params.cover.hiddenInSingle | default site.Params.cover.hidden }}
+  {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
+  {{- if (.Param "ShowToc") }}
+  {{- partial "toc.html" . }}
+  {{- end }}
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+
+
+
+<!-- modify this form HTML and place wherever you want your form -->
+<ul class="post-tags" style = "border: 1px black solid;border-radius: 10px;padding: 1rem;">
+    <form id="my-form" action="https://formspree.io/f/xaygjdqa" method="POST">
+        <div>
+            <label>Email:</label>
+            <input style="    background-color: rgb(245, 245, 245);        " type="email" name="email" /> <br/><br/>
+            <label>Message:</label>
+            <input style="    background-color: rgb(245, 245, 245);        "  type="text" name="message" />
+            <br/>
+            <button style="margin-top: 1rem;" id="my-form-button"><a>Submit</a></button>
+        </div>
+        <p id="my-form-status"></p>
+      </form>
+        <!-- Place this script at the end of the body tag -->
+  <script>
+    var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Thanks for your submission!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
+</ul>
+
+
+
+
+
+  </div>
+  {{- end }}
+
+  <footer class="post-footer">
+    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms $tags) }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "post_nav_links.html" . }}
+    {{- end }}
+    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
+    {{- partial "share_icons.html" . -}}
+    {{- end }}
+  </footer>
+
+  {{- if (.Param "comments") }}
+  {{- partial "comments.html" . }}
+  {{- end }}
+</article>
+
+
+
+{{- end }}{{/* end main */}}
