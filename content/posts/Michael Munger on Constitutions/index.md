@@ -57,7 +57,7 @@ I first got to know Dr. Munger on YouTube([Why Major in Political Science?](http
 <br/>
 
 
-Or if you live in Iran and therefore have limited access to the Internet, [this link](mungerconstitutions.mp3) containing the mp3 file could help. This player might even work as well:
+Or if you live in Iran and therefore have limited access to the Internet, [this link for the first 30 minutes](mungerconstitutions-1.mp3) and [this link for the rest](mungerconstitutions-2.mp3) containing the mp3 file could help. This player might even work as well:
 
 <iframe height="200" style="width: 100%; border: none;" src="https://player.simplecast.com/c6459c10-928a-4152-97dd-41031ad1fa47?dark=true">iFrame ain't working?</iframe>
 
