@@ -158,7 +158,7 @@ menu:
       weight: 30
     - identifier: certs
       name: certs
-      url: https://en.ayoonesi.ir/cert/
+      url: https://cert.ayoonesi.ir/
       weight: 40
     - identifier: persian
       name: persian
