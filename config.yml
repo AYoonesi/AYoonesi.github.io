@@ -89,14 +89,22 @@ params:
   socialIcons:
     - name: twitter
       url: "https://twitter.com/I_Instit"
-    - name: stackoverflow
-      url: "https://stackoverflow.com/users/19220842/ayoonesi"
+    - name: hackerrank
+      url: https://www.hackerrank.com/profile/AYoonesi
     - name: github
       url: "https://github.com/AYoonesi"
     - name: linkedin
       url: "https://www.linkedin.com/in/AYoonesi/"
     - name: kaggle
       url: https://www.kaggle.com/ayoonesi
+    - name: blogger
+      url: https://blogger.ayoonesi.ir/
+    - name: letterboxd
+      url: https://letterboxd.com/AYoonesi/
+    - name: goodreads
+      url: https://goodreads.com/AYoonesi
+    - name: googlescholar
+      url: https://scholar.google.com/citations?user=k8utD4MAAAAJ&hl=en
 
   analytics:
     google:
