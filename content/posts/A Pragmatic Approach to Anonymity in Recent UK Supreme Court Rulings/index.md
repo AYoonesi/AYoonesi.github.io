@@ -31,6 +31,7 @@ tags: [
 
 
 author: "Alireza Yoonesi"
+# author_url: "https://google.com"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false

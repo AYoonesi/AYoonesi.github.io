@@ -22,6 +22,7 @@ params:
   description: "Discover a versatile world of expertise! I'm a Researcher, Developer, Farmer, and part-time Writer, fluent in English and Persian. Delve into insights on Private Law, Aviation, Economics, Politics & Intl’ Relations, History, AI, and Finance in my captivating content. Join me in exploring the intersection of knowledge and curiosity."
   keywords: [Researcher, Developer, Farmer, Part-time Writer, English and Persian Content, Private Law, Aviation, Economics, Politics & International Relations, History, AI (Artificial Intelligence), Finance, Expertise, Multilingual Blogger, Curiosity, Knowledge Intersection, Versatile Skills, Blogging Insights, Diverse Interests, Captivating Content]
   author: Alireza Yoonesi
+  author_url: https://www.linkedin.com/in/AYoonesi/
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"

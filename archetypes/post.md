@@ -5,6 +5,7 @@ date: {{ .Date }}
 # aliases: ["/first"]
 tags: ["first"]
 author: "Alireza Yoonesi"
+author_url: https://www.linkedin.com/in/AYoonesi/
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false

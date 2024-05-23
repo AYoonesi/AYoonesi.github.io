@@ -1,3 +1,4 @@
+<a href="{{.Params.author_url | default site.Params.author_url}}">
 {{- if or .Params.author site.Params.author }}
 {{- $author := (.Params.author | default site.Params.author) }}
 {{- $author_type := (printf "%T" $author) }}
@@ -7,3 +8,4 @@
 {{- $author }}
 {{- end }}
 {{- end -}}
+</a>
