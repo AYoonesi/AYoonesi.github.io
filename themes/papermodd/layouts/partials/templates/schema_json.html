@@ -90,13 +90,15 @@
   {{- if $i }}, {{end -}}
   {
     "@type": "Person",
-    "name": {{ $v }}
+    "name": {{ $v }},
+    "url": {{ "https://www.linkedin.com/in/AYoonesi/" }}
   }
   {{- end }}],
     {{- else -}}
   {
     "@type": "Person",
-    "name": {{ . }}
+    "name": {{ . }},
+    "url": {{ "https://www.linkedin.com/in/AYoonesi/" }}
   },
     {{- end -}}
   {{- end }}
