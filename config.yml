@@ -81,7 +81,7 @@ params:
     # Title: "Hi there \U0001F44B"
     Title: Alireza Yoonesi
     # Content: Welcome to my blog, where I write things
-    Content: Law of Obligations, ADR & Int'l Trade Law Scholar-in-Training | Bilingual Writer | Diverse Background: Tech, Agriculture & Economics
+    Content: "Law of Obligations, ADR & Int'l Trade Law Scholar-in-Training | Bilingual Writer | Diverse Background: Tech, Agriculture & Economics"
     imageUrl: "images/me250x250.webp"
     imageWidth: 150
     imageHeight: 150
