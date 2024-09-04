@@ -16,7 +16,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Michael Munger contends that we need rules about the rules more than we need actual rules. So, is a new Constitution required for the United States? Listen as the economist and political scientist from Duke University discusses public choice, approving of coercion, and whether or not constitutions matter with host Russ Roberts"
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://www.econtalk.org/michael-munger-on-constitutions/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
