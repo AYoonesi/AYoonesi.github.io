@@ -94,9 +94,9 @@ You may check the course by Ian Ayres, William K. Townsend Professor of Yale Law
 
 **My Certificate & Grades:**
 
-![](Coursera-Z5VM01IC32XK_page-0001.jpg)
+[![](cert.webp)](cert.jpg)
 
-![](Coursera-Z5VM01IC32XK-Grades_page-0001.jpg)
+[![](Coursera-Z5VM01IC32XK-Grades_page-0001.webp)](Coursera-Z5VM01IC32XK-Grades_page-0001.jpg)
 
 **Who is Ian Ayres?**
 > Ian Ayres is a lawyer and an economist. He is the William K. Townsend Professor at Yale Law School, the Anne Urowsky Professorial Fellow in Law, and a Professor at Yale's School of Management. Professor Ayres has been a columnist for Forbes magazine, a commentator on public radio’s Marketplace, and a contributor to the New York Times' Freakonomics Blog. He has published 11 books (including the New York Times best-seller, Super Crunchers) and over 100 articles on a wide range of topics. Ian is a co-founder of stickK.com, a web site that helps you stick to your goals. In 2006, he was elected to the American Academy of Arts and Sciences.
