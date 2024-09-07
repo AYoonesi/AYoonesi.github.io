@@ -1,5 +1,5 @@
 ---
-title: "Yales Law's American Contract Law I: An Overview"
+title: "Yale Law's American Contract Law I: An Overview"
 date: 2024-09-07T19:20:16+03:30
 # weight: 1
 aliases: ["/contracts-i"]
