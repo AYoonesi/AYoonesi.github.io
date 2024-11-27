@@ -106,6 +106,8 @@ params:
       url: https://goodreads.com/AYoonesi
     - name: googlescholar
       url: https://scholar.google.com/citations?user=k8utD4MAAAAJ&hl=en
+    - name: mastadoon
+      url: https://sciences.social/@ayoonesi
 
   analytics:
     google:
