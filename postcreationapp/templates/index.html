@@ -1,0 +1,159 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Creator</title>
+</head>
+<body>
+    <h1>Create a New Article</h1>
+    <form id="article-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="tags">Tags (comma-separated):</label>
+        <input type="text" id="tags" name="tags"><br><br>
+
+        <label for="content">Content:</label><br>
+        <textarea id="content" name="content" rows="10" cols="50"></textarea><br><br>
+
+        <button type="button" onclick="submitForm()">Create Article</button>
+    </form>
+
+    <script>
+        async function submitForm() {
+            const title = document.getElementById('title').value;
+            const tags = document.getElementById('tags').value.split(',').map(tag => tag.trim());
+            const content = document.getElementById('content').value;
+
+            const response = await fetch('/create', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ title, tags, content })
+            });
+
+            const result = await response.json();
+            alert(result.message);
+        }
+    </script>
+</body>
+</html>
+ -->
+
+
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Creator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link href="https://cdn.quilljs.com/1.3.7/quill.snow.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Create a new post</h1>
+        <form id="article-form">
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" id="title" name="title" class="form-control" required placeholder='This will be the name of the folder'>
+            </div>
+
+            <div class="mb-3">
+                <label for="tags" class="form-label">Tags (comma-separated)</label>
+                <input type="text" id="tags" name="tags" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label for="aliases" class="form-label">Aliases</label>
+                <input type="text" id="aliases" name="aliases" class="form-control" placeholder='eg: /alias1, alias2'>
+            </div>
+
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <input type="text" id="description" name="description" class="form-control" placeholder="Brief description of the article">
+            </div>
+
+            <div class="mb-3">
+                <label for="canonicalURL" class="form-label">Canonical URL</label>
+                <input type="url" id="canonicalURL" name="canonicalURL" class="form-control" placeholder="https://example.com">
+            </div>
+
+            <fieldset class="border p-3 mb-3">
+                <legend class="w-auto">Cover</legend>
+                <div class="mb-3">
+                    <label for="cover-image" class="form-label">Image Path/URL</label>
+                    <input type="text" id="cover-image" name="cover-image" class="form-control" placeholder='Shall be changed into an upload thing'>
+                </div>
+                <div class="mb-3">
+                    <label for="cover-alt" class="form-label">Alt Text</label>
+                    <input type="text" id="cover-alt" name="cover-alt" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="cover-caption" class="form-label">Caption</label>
+                    <input type="text" id="cover-caption" name="cover-caption" class="form-control">
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="cover-relative">
+                    <label class="form-check-label" for="cover-relative">Relative</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="cover-hidden">
+                    <label class="form-check-label" for="cover-hidden">Hidden</label>
+                </div>
+            </fieldset>
+
+            <div class="mb-3">
+                <label for="content" class="form-label">Content (in Markdown)</label>
+                <textarea class="form-control"id="editor" name="content" rows="10" cols="50" placeholder='This must be changed in the near future. So that the app looks for a file named source.txt or whatever that contains the MD data and puts it at the end of this!'></textarea><br><br>
+            </div>
+
+            <button type="button" class="btn btn-primary" onclick="submitForm()">Create Article</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const editor = new Quill('#editor', {
+            theme: 'snow'
+        });
+
+        async function submitForm() {
+            const title = document.getElementById('title').value;
+            const tags = document.getElementById('tags').value.split(',').map(tag => tag.trim());
+            const aliases = document.getElementById('aliases').value.split(' or ').map(alias => alias.trim());
+            const description = document.getElementById('description').value;
+            const canonicalURL = document.getElementById('canonicalURL').value;
+            const cover = {
+                image: document.getElementById('cover-image').value,
+                alt: document.getElementById('cover-alt').value,
+                caption: document.getElementById('cover-caption').value,
+                relative: document.getElementById('cover-relative').checked,
+                hidden: document.getElementById('cover-hidden').checked,
+            };
+            const content = document.getElementById('editor').value;
+
+            const response = await fetch('/create', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ title, tags, aliases, description, canonicalURL, cover, content })
+            });
+
+            const result = await response.json();
+            alert(result.message);
+        }
+
+    </script>
+</body>
+</html>

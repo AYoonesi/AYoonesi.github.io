@@ -16,7 +16,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Dante Alighieri, probably baptized Durante di Alighiero degli Alighieri and often referred to simply as Dante (1265 – 1321), was an Italian poet, writer and philosopher. His Divine Comedy, originally called Comedìa and later christened Divina by Giovanni Boccaccio, is widely considered one of the most important poems of the Middle Ages and the greatest literary work in the Italian language."
-canonicalURL: "https://canonical.url/to/page"
+# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

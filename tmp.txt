@@ -1,0 +1,83 @@
+content/
+├── about.md
+├── archives.md
+├── contact.md
+├── posts
+│   ├── A Pragmatic Approach to Anonymity in Recent UK Supreme Court Rulings
+│   │   ├── index.md
+│   │   ├── uksc-court-sittings-2023.jpg
+│   │   └── uksc-court-sittings-2023.jpg:Zone.Identifier
+│   ├── American Contract Law I: An Overview
+│   │   ├── ContractsI.jpg
+│   │   ├── CourseModules.jpg
+│   │   ├── Coursera-Z5VM01IC32XK-Grades_page-0001.jpg
+│   │   ├── Coursera-Z5VM01IC32XK-Grades_page-0001.webp
+│   │   ├── cert.jpg
+│   │   ├── cert.webp
+│   │   └── index.md
+│   ├── Casting Light on the Enigma of Interest Rates: Böhm-Bawerk's Intellectual Journey
+│   │   ├── 1695767969258.png
+│   │   └── index.md
+│   ├── Coup Chronicles: Unpacking the 1953 US-Iranian Drama through Abrahamian's Critical Lens
+│   │   ├── 1695390189402.png
+│   │   └── index.md
+│   ├── Dante
+│   │   ├── 1022px-Dante_Domenico_di_Michelino_Duomo_Florence.jpg
+│   │   ├── 1024px-Henry_Holiday_-_Dante_and_Beatrice_-_Google_Art_Project.jpg
+│   │   ├── Dante_Alieghri_tomb_in_Ravenna_(interior).jpg
+│   │   ├── Dante_Luca.jpg
+│   │   └── index.md
+│   ├── Deciphering “Permanent Record”: A Surface-Level Critique
+│   │   ├── 1694798649238.png
+│   │   └── index.md
+│   ├── Iran's Economic Landscape in 1401: Income, Poverty, and Policy Impact
+│   │   ├── 10548djavad-jpg.webp
+│   │   ├── 1696721861683.png
+│   │   └── index.md
+│   ├── Iranian Kamikaze Drone — Shahed 136
+│   │   ├── 0*ptqzjsd57SEAkTfr.webp
+│   │   ├── 640px-Remains_of_Russian_missiles_and_drones_in_Kyiv_(2023-05-12)_05.jpg
+│   │   ├── Gepard.webp
+│   │   ├── index.md
+│   │   ├── irib.webp
+│   │   └── range.jpg
+│   ├── Metamorphosis of Ideals: The Housing Conundrum in a Financial World
+│   │   ├── 1697656240094.jpg
+│   │   ├── index.md
+│   │   └── metamorphosis-of-ideals-the-housing-conundrum-in-a-financial-world.pdf
+│   ├── Michael Munger on Constitutions
+│   │   ├── index.md
+│   │   ├── mike-cons.jpg
+│   │   ├── mungerconstitutions-1.mp3
+│   │   └── mungerconstitutions-2.mp3
+│   ├── Revisiting the Sociopolitical Thought of Muhammad Ali Foroughi: Lessons for Today's Patriotic Intellectuals
+│   │   ├── 1700180170603.jpg
+│   │   └── index.md
+│   ├── Thomas Hobbes and Political Obedience: Insights from the English Civil War
+│   │   ├── index.md
+│   │   └── william-cavendish-painting-thomas-hobbes.jpg
+│   ├── Unveiling the Shadows of Power: Mohammad Mosaddeq and the 1953 Coup in Iran
+│   │   ├── 1693958530896.jpg
+│   │   └── index.md
+│   ├── What Was Shakespeare Thinking Back Then?
+│   │   ├── 0*7D02nqZf73W9uXHY.webp
+│   │   ├── 0*Ya40m4CGGKWBtwDF.webp
+│   │   ├── 0*uEFB6aZyAKHDKRVJ.webp
+│   │   ├── 1*UX1NlSlQDis1q8Axatg6Uw.webp
+│   │   ├── 1*bpvNQGea6VN1ssMR9ibh2A.webp
+│   │   ├── 1*q3reywUbVqgdece0w6msYw.webp
+│   │   ├── 1*rPueBquZrXcHFg8n_vUGYQ.webp
+│   │   ├── 1*tvIHFBrrvMymxJeCq5Y8dA.gif
+│   │   └── index.md
+│   └── “Sex and Repression in Savage Society,” by Bronisław Malinowski
+│       ├── 1692311771240.jpg
+│       ├── 1692311873477.jpg
+│       └── index.md
+└── search.md
+archetypes/
+├── default.md
+├── post.md
+└── posts
+    └── index.md
+
+1 directory, 3 files
